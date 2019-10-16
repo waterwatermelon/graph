@@ -1,4 +1,4 @@
-<mxfile modified="2019-10-16T19:49:02.532Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36" etag="ShYo6gkExJ8HKHNqQOGS" version="12.1.2" type="github" pages="2">
+<mxfile modified="2019-10-16T19:49:10.980Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36" etag="M76--97HlBuoImzksf-N" version="12.1.2" type="github" pages="2">
   <diagram id="dJIkZJ6dtBG-nSI26m5C" name="common">
     <mxGraphModel dx="1024" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -197,7 +197,7 @@
             <mxPoint x="362" y="295" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="d0NadCLr2hk_VE_kVVC0-13" value="调用SDK，向PBX请求" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;" edge="1" parent="rinHVR5RJzgUqYsJ6-p7-1">
+        <mxCell id="d0NadCLr2hk_VE_kVVC0-13" value="调用SDK，向PBX请求" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;labelBackgroundColor=none;" edge="1" parent="rinHVR5RJzgUqYsJ6-p7-1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="357" y="275" as="sourcePoint"/>
             <mxPoint x="651" y="275" as="targetPoint"/>
