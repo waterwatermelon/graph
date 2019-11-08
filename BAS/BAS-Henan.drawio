@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-08T02:45:37.901Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="K82b6CEvFd950wx-EQ-9" version="12.2.2" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2019-11-08T02:53:59.989Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="6lFajBrLAha1VFiDKRtj" version="12.2.2" type="github" pages="5">
   <diagram id="v2cxOOxOvi4RN6NPUuHO" name="DB-design(E-R)">
     <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -522,11 +522,11 @@
             <mxPoint x="211" y="315" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AIv0I5Lg5cAo7WtWSRjP-1" value="&lt;font style=&quot;font-size: 30px&quot; color=&quot;#ff0000&quot;&gt;X&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" parent="eUXG6ATQsXLgmVt1p8NC-1" vertex="1">
-          <mxGeometry x="310" y="187" width="40" height="20" as="geometry"/>
+        <mxCell id="AIv0I5Lg5cAo7WtWSRjP-1" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 30px&quot;&gt;②&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" parent="eUXG6ATQsXLgmVt1p8NC-1" vertex="1">
+          <mxGeometry x="365" y="187" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="cpYSV82FEMCRQ-yEH3Ny-0" value="&lt;font style=&quot;font-size: 30px&quot; color=&quot;#ff0000&quot;&gt;X&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="eUXG6ATQsXLgmVt1p8NC-1">
-          <mxGeometry x="320" y="302" width="40" height="20" as="geometry"/>
+        <mxCell id="cpYSV82FEMCRQ-yEH3Ny-0" value="&lt;font style=&quot;font-size: 30px&quot; color=&quot;#ff0000&quot;&gt;③&lt;br&gt;&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="eUXG6ATQsXLgmVt1p8NC-1">
+          <mxGeometry x="310" y="300" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="I5CYNV84WfSEEPbPBjpi-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="eUXG6ATQsXLgmVt1p8NC-1">
           <mxGeometry x="360" y="270" width="10" height="22" as="geometry"/>
@@ -543,11 +543,11 @@
         <mxCell id="I5CYNV84WfSEEPbPBjpi-5" value="&lt;font style=&quot;font-size: 20px&quot;&gt;异步任务，节点交互时网络异常&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="eUXG6ATQsXLgmVt1p8NC-1">
           <mxGeometry x="140" y="10" width="300" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="I5CYNV84WfSEEPbPBjpi-6" value="服务A作为客户端，在收到" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="eUXG6ATQsXLgmVt1p8NC-1">
-          <mxGeometry x="208" y="393" width="160" height="20" as="geometry"/>
+        <mxCell id="I5CYNV84WfSEEPbPBjpi-7" value="&lt;font style=&quot;font-size: 30px&quot; color=&quot;#ff0000&quot;&gt;①&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="eUXG6ATQsXLgmVt1p8NC-1">
+          <mxGeometry x="300" y="150" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="I5CYNV84WfSEEPbPBjpi-7" value="&lt;font style=&quot;font-size: 30px&quot; color=&quot;#ff0000&quot;&gt;X&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="eUXG6ATQsXLgmVt1p8NC-1">
-          <mxGeometry x="320" y="150" width="40" height="20" as="geometry"/>
+        <mxCell id="I5CYNV84WfSEEPbPBjpi-8" value="&lt;span style=&quot;font-size: 16px&quot;&gt;可能出现问题的点：&lt;br&gt;①因为网络原因，服务B未收到服务A的请求，从而出现服务A请求超时的问题&lt;br&gt;②因为服务B内部问题导致服务A未收到服务B的响应，&lt;/span&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;从而出现服务A请求超时的问题&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;服务A的处理措施：&lt;br&gt;①保持一定时间间隔，重发请求&lt;br&gt;服务B的处理措施：&lt;br&gt;①保证请求幂等，修复内部问题&lt;br&gt;&lt;br&gt;最后的解决措施：修复网络环境&lt;br&gt;&lt;/span&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="eUXG6ATQsXLgmVt1p8NC-1">
+          <mxGeometry x="170" y="430" width="620" height="140" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
