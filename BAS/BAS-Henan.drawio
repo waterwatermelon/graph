@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-08T03:00:53.741Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="S6LAqHYgNuQjFptdEPj0" version="12.2.2" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-11-08T03:04:48.896Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="3TRUCOGi9sdw5OLl5-ET" version="12.2.2" type="github" pages="6">
   <diagram id="v2cxOOxOvi4RN6NPUuHO" name="DB-design(E-R)">
     <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -790,8 +790,8 @@
         <mxCell id="ACcC7GjTQGxlKcPTCfo3-19" value="&lt;font style=&quot;font-size: 30px&quot; color=&quot;#ff0000&quot;&gt;①&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="ACcC7GjTQGxlKcPTCfo3-1">
           <mxGeometry x="300" y="140" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="ACcC7GjTQGxlKcPTCfo3-20" value="&lt;span style=&quot;font-size: 16px&quot;&gt;可能出现问题的点：&lt;br&gt;①因为网络原因，服务B未收到服务A的请求，从而出现服务A请求超时的问题&lt;br&gt;②因为服务B内部问题导致服务A未收到服务B的响应，&lt;/span&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;从而出现服务A请求超时的问题&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;服务A的处理措施：&lt;br&gt;①保持一定时间间隔，重发请求&lt;br&gt;服务B的处理措施：&lt;br&gt;①保证请求幂等，修复内部问题&lt;br&gt;最后的解决措施：修复网络环境&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="ACcC7GjTQGxlKcPTCfo3-1">
-          <mxGeometry x="103" y="390" width="620" height="140" as="geometry"/>
+        <mxCell id="ACcC7GjTQGxlKcPTCfo3-20" value="&lt;span style=&quot;font-size: 16px&quot;&gt;可能出现问题的点：&lt;br&gt;①②③因为网络原因、数据有问题，从而引起这3点出现问题。&lt;/span&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;处理措施：&lt;br&gt;①反复的向数据库写数据，这一步很多插件都已经帮我们完成了，通常是人工介入修复问题。&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="ACcC7GjTQGxlKcPTCfo3-1">
+          <mxGeometry x="103" y="390" width="670" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
