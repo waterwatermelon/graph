@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-08T02:55:07.434Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="l4Tm2u8X-vq9mwTEi1Vu" version="12.2.2" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2019-11-08T02:57:22.566Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="IzwSumaWNzeDzaSgjeHO" version="12.2.2" type="github" pages="6">
   <diagram id="v2cxOOxOvi4RN6NPUuHO" name="DB-design(E-R)">
     <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -728,14 +728,70 @@
         <mxCell id="7fA2MOUtHPGKt2FgOtiB-38" value="&lt;font style=&quot;font-size: 30px&quot; color=&quot;#ff0000&quot;&gt;X&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="7fA2MOUtHPGKt2FgOtiB-1">
           <mxGeometry x="310" y="152" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="7fA2MOUtHPGKt2FgOtiB-39" value="&lt;font style=&quot;font-size: 30px&quot; color=&quot;#ff0000&quot;&gt;X&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="7fA2MOUtHPGKt2FgOtiB-1">
-          <mxGeometry x="690" y="420" width="40" height="20" as="geometry"/>
-        </mxCell>
         <mxCell id="7fA2MOUtHPGKt2FgOtiB-40" value="&lt;font style=&quot;font-size: 30px&quot; color=&quot;#ff0000&quot;&gt;X&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="7fA2MOUtHPGKt2FgOtiB-1">
           <mxGeometry x="320" y="367" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="7fA2MOUtHPGKt2FgOtiB-41" value="&lt;font style=&quot;font-size: 30px&quot; color=&quot;#ff0000&quot;&gt;X&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="7fA2MOUtHPGKt2FgOtiB-1">
           <mxGeometry x="320" y="316" width="40" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="sequence-error-db-write" id="U9DnwYQTlkzWa1DU81mw">
+    <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ACcC7GjTQGxlKcPTCfo3-0"/>
+        <mxCell id="ACcC7GjTQGxlKcPTCfo3-1" parent="ACcC7GjTQGxlKcPTCfo3-0"/>
+        <mxCell id="ACcC7GjTQGxlKcPTCfo3-2" value="服务A" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="ACcC7GjTQGxlKcPTCfo3-1">
+          <mxGeometry x="144" y="75" width="100" height="295" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACcC7GjTQGxlKcPTCfo3-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="ACcC7GjTQGxlKcPTCfo3-2">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACcC7GjTQGxlKcPTCfo3-4" value="数据库服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="ACcC7GjTQGxlKcPTCfo3-1">
+          <mxGeometry x="310" y="75" width="100" height="300" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACcC7GjTQGxlKcPTCfo3-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="ACcC7GjTQGxlKcPTCfo3-4">
+          <mxGeometry x="45" y="70" width="10" height="77" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACcC7GjTQGxlKcPTCfo3-7" value="写数据" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=14;" edge="1" parent="ACcC7GjTQGxlKcPTCfo3-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="201" y="165" as="sourcePoint"/>
+            <mxPoint x="351" y="165" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACcC7GjTQGxlKcPTCfo3-8" value="返回写数据结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=14;" edge="1" parent="ACcC7GjTQGxlKcPTCfo3-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="356" y="213" as="sourcePoint"/>
+            <mxPoint x="201" y="213" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACcC7GjTQGxlKcPTCfo3-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="ACcC7GjTQGxlKcPTCfo3-1">
+          <mxGeometry x="360" y="185" width="10" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACcC7GjTQGxlKcPTCfo3-10" value="执行写数据操作" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=14;" edge="1" parent="ACcC7GjTQGxlKcPTCfo3-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="169" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="390" y="169"/>
+            </Array>
+            <mxPoint x="370" y="189" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACcC7GjTQGxlKcPTCfo3-14" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;font-size: 30px&quot;&gt;②&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="ACcC7GjTQGxlKcPTCfo3-1">
+          <mxGeometry x="610" y="165" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACcC7GjTQGxlKcPTCfo3-15" value="&lt;font style=&quot;font-size: 30px&quot; color=&quot;#ff0000&quot;&gt;③&lt;br&gt;&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="ACcC7GjTQGxlKcPTCfo3-1">
+          <mxGeometry x="690" y="165" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACcC7GjTQGxlKcPTCfo3-18" value="&lt;span style=&quot;font-size: 20px&quot;&gt;向数据库写入数据时，出现异常&lt;/span&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="ACcC7GjTQGxlKcPTCfo3-1">
+          <mxGeometry x="140" y="10" width="300" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACcC7GjTQGxlKcPTCfo3-19" value="&lt;font style=&quot;font-size: 30px&quot; color=&quot;#ff0000&quot;&gt;①&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="ACcC7GjTQGxlKcPTCfo3-1">
+          <mxGeometry x="530" y="165" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ACcC7GjTQGxlKcPTCfo3-20" value="&lt;span style=&quot;font-size: 16px&quot;&gt;可能出现问题的点：&lt;br&gt;①因为网络原因，服务B未收到服务A的请求，从而出现服务A请求超时的问题&lt;br&gt;②因为服务B内部问题导致服务A未收到服务B的响应，&lt;/span&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;从而出现服务A请求超时的问题&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;服务A的处理措施：&lt;br&gt;①保持一定时间间隔，重发请求&lt;br&gt;服务B的处理措施：&lt;br&gt;①保证请求幂等，修复内部问题&lt;br&gt;最后的解决措施：修复网络环境&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="ACcC7GjTQGxlKcPTCfo3-1">
+          <mxGeometry x="103" y="390" width="620" height="140" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
