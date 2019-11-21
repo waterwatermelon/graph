@@ -1,5 +1,5 @@
-## 项目说明
-放置在[draw.io](https://www.draw.io/)平台绘制的设计图稿。
+# 项目说明
+本仓库用于放置在[draw.io](https://www.draw.io/)平台绘制的设计图稿。
 
 ## 文件结构说明
 - IOT 物联网管理平台
