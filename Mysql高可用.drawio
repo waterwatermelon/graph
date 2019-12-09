@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-05T08:01:41.759Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="hdFmgy15iHd9-De_si3X" version="12.3.6" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-12-09T11:13:21.125Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="aVxoeHT5-0A5Xmw13UOb" version="12.3.8" type="github" pages="4">
   <diagram id="A-PNPqVm3dsi34xETLl9" name="MHA-HA-topology">
     <mxGraphModel dx="1021" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -135,6 +135,14 @@
         <mxCell id="9ni1zWRy_tD98YB0G6e1-17" value="集群B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=14;" parent="ORjt-ULdQdrRblneIekz-1" vertex="1">
           <mxGeometry x="401" y="150" width="50" height="20" as="geometry"/>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ECau7mxFbnRVqTAvFswr" name="MHA-Mariadb">
+    <mxGraphModel dx="1021" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="d-yjR1t6bpsuaha_mmzi-0"/>
+        <mxCell id="d-yjR1t6bpsuaha_mmzi-1" parent="d-yjR1t6bpsuaha_mmzi-0"/>
       </root>
     </mxGraphModel>
   </diagram>
