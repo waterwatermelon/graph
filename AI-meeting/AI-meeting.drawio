@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-13T01:19:28.498Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="5Zqoy393dEY7gtipbDM1" version="12.3.9" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-12-13T01:21:54.082Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="j3dqVDNvKXOkdwv23kF7" version="12.3.9" type="github" pages="3">
   <diagram id="sGyDJ3xmPa0FNn7oHpdU" name="提前开始会议">
     <mxGraphModel dx="1021" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,22 +53,19 @@
           <mxGeometry x="45" y="60" width="10" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="cWvQ5qR-pPmlQ0AbkIyN-12">
-          <mxGeometry x="45" y="280" width="10" height="79" as="geometry"/>
+          <mxGeometry x="45" y="190" width="10" height="79" as="geometry"/>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-58" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="cWvQ5qR-pPmlQ0AbkIyN-12">
-          <mxGeometry x="45" y="410" width="10" height="60" as="geometry"/>
+          <mxGeometry x="45" y="320" width="10" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-14" value="bridge" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="520" y="480" width="100" height="530" as="geometry"/>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="cWvQ5qR-pPmlQ0AbkIyN-14">
-          <mxGeometry x="45" y="170" width="10" height="70" as="geometry"/>
-        </mxCell>
-        <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="cWvQ5qR-pPmlQ0AbkIyN-14">
-          <mxGeometry x="45" y="261" width="10" height="33" as="geometry"/>
+          <mxGeometry x="45" y="90" width="10" height="102" as="geometry"/>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="cWvQ5qR-pPmlQ0AbkIyN-14">
-          <mxGeometry x="45" y="350" width="10" height="80" as="geometry"/>
+          <mxGeometry x="45" y="260" width="10" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-16" value="MQ" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="310" y="480" width="100" height="530" as="geometry"/>
@@ -76,34 +73,20 @@
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="cWvQ5qR-pPmlQ0AbkIyN-16">
           <mxGeometry x="45" y="70" width="10" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="cWvQ5qR-pPmlQ0AbkIyN-16">
-          <mxGeometry x="50" y="100" width="10" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-24" value="存数据" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=14;" edge="1" target="cWvQ5qR-pPmlQ0AbkIyN-23" parent="cWvQ5qR-pPmlQ0AbkIyN-16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="80" as="sourcePoint"/>
-            <Array as="points">
-              <mxPoint x="80" y="80"/>
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="cWvQ5qR-pPmlQ0AbkIyN-16">
-          <mxGeometry x="45" y="170" width="10" height="50" as="geometry"/>
-        </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="cWvQ5qR-pPmlQ0AbkIyN-16">
-          <mxGeometry x="45" y="263" width="10" height="50" as="geometry"/>
+          <mxGeometry x="45" y="173" width="10" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="cWvQ5qR-pPmlQ0AbkIyN-16">
-          <mxGeometry x="45" y="340" width="10" height="41" as="geometry"/>
+          <mxGeometry x="45" y="250" width="10" height="41" as="geometry"/>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-56" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="cWvQ5qR-pPmlQ0AbkIyN-16">
-          <mxGeometry x="45" y="409" width="10" height="50" as="geometry"/>
+          <mxGeometry x="45" y="319" width="10" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-18" value="meeting" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="660" y="480" width="100" height="530" as="geometry"/>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="cWvQ5qR-pPmlQ0AbkIyN-18">
-          <mxGeometry x="45" y="185" width="10" height="50" as="geometry"/>
+          <mxGeometry x="45" y="105" width="10" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-19" value="推送：人脸识别结果" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -113,89 +96,89 @@
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-27" value="推送：人脸识别结果" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="380" y="660" as="sourcePoint"/>
-            <mxPoint x="552.5" y="660" as="targetPoint"/>
+            <mxPoint x="380" y="580" as="sourcePoint"/>
+            <mxPoint x="552.5" y="580" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-30" value="请求：询问是否可以&lt;br&gt;提前开始会议" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="580" y="669" as="sourcePoint"/>
-            <mxPoint x="704" y="669" as="targetPoint"/>
+            <mxPoint x="580" y="589" as="sourcePoint"/>
+            <mxPoint x="704" y="589" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-31" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=14;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="698" y="700" as="sourcePoint"/>
-            <mxPoint x="580" y="700" as="targetPoint"/>
+            <mxPoint x="698" y="620" as="sourcePoint"/>
+            <mxPoint x="580" y="620" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-35" value="推送：允许提前开始会议" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="560" y="750" as="sourcePoint"/>
-            <mxPoint x="372" y="750" as="targetPoint"/>
+            <mxPoint x="560" y="660" as="sourcePoint"/>
+            <mxPoint x="372" y="660" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-42" value="推送：询问是否提前开始会议" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="342.5" y="770" as="sourcePoint"/>
-            <mxPoint x="170" y="770" as="targetPoint"/>
+            <mxPoint x="342.5" y="680" as="sourcePoint"/>
+            <mxPoint x="170" y="680" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-47" value="推送：用户确认结果" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="380" y="833" as="sourcePoint"/>
-            <mxPoint x="552.5" y="833" as="targetPoint"/>
+            <mxPoint x="380" y="743" as="sourcePoint"/>
+            <mxPoint x="552.5" y="743" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-48" value="MCU" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="780" y="480" width="100" height="540" as="geometry"/>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-51" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="cWvQ5qR-pPmlQ0AbkIyN-48">
-          <mxGeometry x="45" y="362" width="10" height="53" as="geometry"/>
+          <mxGeometry x="45" y="272" width="10" height="53" as="geometry"/>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-52" value="请求：提前开始会议" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="580" y="850" as="sourcePoint"/>
-            <mxPoint x="820" y="850" as="targetPoint"/>
+            <mxPoint x="580" y="760" as="sourcePoint"/>
+            <mxPoint x="820" y="760" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-54" value="返回：处理结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=14;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="820" y="880" as="sourcePoint"/>
-            <mxPoint x="580" y="880" as="targetPoint"/>
+            <mxPoint x="820" y="790" as="sourcePoint"/>
+            <mxPoint x="580" y="790" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-55" value="推送：提前开始会议的结果" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="560" y="900" as="sourcePoint"/>
-            <mxPoint x="370" y="900" as="targetPoint"/>
+            <mxPoint x="560" y="810" as="sourcePoint"/>
+            <mxPoint x="370" y="810" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-57" value="推送：提前开始会议的结果" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="347.5" y="913" as="sourcePoint"/>
-            <mxPoint x="159.5" y="913" as="targetPoint"/>
+            <mxPoint x="347.5" y="823" as="sourcePoint"/>
+            <mxPoint x="159.5" y="823" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="vQtBdbBWceYxuiMzY1yn-1" value="MEETING_SUBSCRIBE_EVENT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="51" y="19" width="217" height="21" as="geometry"/>
         </mxCell>
         <mxCell id="vQtBdbBWceYxuiMzY1yn-2" value="AI_FACE_DETECTION" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="90" y="342" width="156" height="21" as="geometry"/>
+          <mxGeometry x="90" y="337" width="156" height="21" as="geometry"/>
         </mxCell>
         <mxCell id="vQtBdbBWceYxuiMzY1yn-3" value="MEETING_START_IN_ADVANCE_REQUEST" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="89" y="383" width="298" height="21" as="geometry"/>
+          <mxGeometry x="90" y="394" width="298" height="21" as="geometry"/>
         </mxCell>
         <mxCell id="vQtBdbBWceYxuiMzY1yn-4" value="MEETING_START_IN_ADVANCE_ACK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="90" y="415.5" width="259" height="21" as="geometry"/>
         </mxCell>
         <mxCell id="vQtBdbBWceYxuiMzY1yn-5" value="MEETING_START_IN_ADVANCE_RESPONSE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="92" y="448" width="308" height="21" as="geometry"/>
+          <mxGeometry x="91" y="438" width="308" height="21" as="geometry"/>
         </mxCell>
         <mxCell id="vQtBdbBWceYxuiMzY1yn-8" value="推送：用户确认结果" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="174" y="825" as="sourcePoint"/>
-            <mxPoint x="346.5" y="825" as="targetPoint"/>
+            <mxPoint x="174" y="735" as="sourcePoint"/>
+            <mxPoint x="346.5" y="735" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
       </root>
