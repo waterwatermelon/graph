@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-13T01:15:11.774Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="dQm9L2HzrGfX5lBGT9t6" version="12.3.9" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-12-13T01:17:09.145Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="iYKE3az0hLo21Yza19Db" version="12.3.9" type="github" pages="3">
   <diagram id="sGyDJ3xmPa0FNn7oHpdU" name="提前开始会议">
     <mxGraphModel dx="1021" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -141,13 +141,7 @@
             <mxPoint x="170" y="780" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-43" value="返回：用户确认结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=14;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="170" y="840" as="sourcePoint"/>
-            <mxPoint x="340" y="840" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-47" value="推送：用户是否提前开始会议的决定" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=14;" edge="1" parent="1">
+        <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-47" value="推送：用户确认结果" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="380" y="850" as="sourcePoint"/>
             <mxPoint x="552.5" y="850" as="targetPoint"/>
@@ -179,24 +173,30 @@
         </mxCell>
         <mxCell id="cWvQ5qR-pPmlQ0AbkIyN-57" value="推送：提前开始会议的结果" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="350" y="920" as="sourcePoint"/>
-            <mxPoint x="150" y="920" as="targetPoint"/>
+            <mxPoint x="347.5" y="923" as="sourcePoint"/>
+            <mxPoint x="159.5" y="923" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="vQtBdbBWceYxuiMzY1yn-1" value="MEETING_SUBSCRIBE_EVENT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="51" y="19" width="217" height="21" as="geometry"/>
         </mxCell>
         <mxCell id="vQtBdbBWceYxuiMzY1yn-2" value="AI_FACE_DETECTION" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="126" y="341" width="156" height="21" as="geometry"/>
+          <mxGeometry x="90" y="342" width="156" height="21" as="geometry"/>
         </mxCell>
         <mxCell id="vQtBdbBWceYxuiMzY1yn-3" value="MEETING_START_IN_ADVANCE_REQUEST" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="89" y="383" width="298" height="21" as="geometry"/>
         </mxCell>
         <mxCell id="vQtBdbBWceYxuiMzY1yn-4" value="MEETING_START_IN_ADVANCE_ACK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="109" y="416" width="259" height="21" as="geometry"/>
+          <mxGeometry x="90" y="415.5" width="259" height="21" as="geometry"/>
         </mxCell>
         <mxCell id="vQtBdbBWceYxuiMzY1yn-5" value="MEETING_START_IN_ADVANCE_RESPONSE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="85" y="448" width="308" height="21" as="geometry"/>
+          <mxGeometry x="92" y="448" width="308" height="21" as="geometry"/>
+        </mxCell>
+        <mxCell id="vQtBdbBWceYxuiMzY1yn-8" value="推送：用户确认结果" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="174" y="835" as="sourcePoint"/>
+            <mxPoint x="346.5" y="835" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
