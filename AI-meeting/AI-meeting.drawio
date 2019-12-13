@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-13T00:52:22.677Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="d0fOQ4yuS3z0Y6Gl23xK" version="12.3.9" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-12-13T01:13:30.858Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="1d06wFnsqCpgDoYTvQT6" version="12.3.9" type="github" pages="3">
   <diagram id="sGyDJ3xmPa0FNn7oHpdU" name="提前开始会议">
     <mxGraphModel dx="1021" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -182,6 +182,15 @@
             <mxPoint x="350" y="920" as="sourcePoint"/>
             <mxPoint x="150" y="920" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="vQtBdbBWceYxuiMzY1yn-1" value="MEETING_SUBSCRIBE_EVENT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="51" y="19" width="217" height="21" as="geometry"/>
+        </mxCell>
+        <mxCell id="vQtBdbBWceYxuiMzY1yn-2" value="AI_FACE_DETECTION" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="126" y="341" width="156" height="21" as="geometry"/>
+        </mxCell>
+        <mxCell id="vQtBdbBWceYxuiMzY1yn-3" value="MEETING_START_IN_ADVANCE_ASK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="109" y="383" width="258" height="21" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
