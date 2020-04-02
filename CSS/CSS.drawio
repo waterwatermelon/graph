@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-02T09:06:26.196Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="ldgXZyzqPP8VPXR_vjuc" version="12.9.6" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2020-04-02T09:06:47.257Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="h-9E0EPgAFXQwIVM-wax" version="12.9.6" type="github" pages="5">
   <diagram id="X-R3iJYTTaz-wiHU9ndh" name="[sequence]bak-compare">
     <mxGraphModel dx="1021" dy="580" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -96,13 +96,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8ziXm97vREXkAXsJvEZM-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="290" y="399" width="10" height="23" as="geometry" />
+          <mxGeometry x="290" y="389" width="10" height="23" as="geometry" />
         </mxCell>
         <mxCell id="8ziXm97vREXkAXsJvEZM-42" value="数据比对" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;" parent="1" target="8ziXm97vREXkAXsJvEZM-41" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="295" y="379" as="sourcePoint" />
+            <mxPoint x="295" y="369" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="320" y="379" />
+              <mxPoint x="320" y="369" />
             </Array>
           </mxGeometry>
         </mxCell>
