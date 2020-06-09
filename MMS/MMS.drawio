@@ -1,24 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2020-06-09T06:50:23.662Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="16_xZASmRdw0AEk-NiI2" version="12.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-09T06:52:05.456Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="0P3A_cWBPq7mHgIg-IoW" version="12.9.5" type="github">
   <diagram id="NsPrAINzQS3ARWFUSx2h" name="类图">
     <mxGraphModel dx="690" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-43" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;" parent="1" source="4ZtbwT0k7VQaQEq-_F7P-16" target="4ZtbwT0k7VQaQEq-_F7P-38" edge="1">
+        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-43" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.013;exitY=0.865;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4ZtbwT0k7VQaQEq-_F7P-16" target="4ZtbwT0k7VQaQEq-_F7P-38" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="360" y="400" as="sourcePoint" />
             <mxPoint x="460" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-45" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;curved=1;" parent="1" source="4ZtbwT0k7VQaQEq-_F7P-41" target="4ZtbwT0k7VQaQEq-_F7P-38" edge="1">
+        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-45" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;startArrow=ERoneToMany;startFill=0;endFill=0;" parent="1" source="4ZtbwT0k7VQaQEq-_F7P-41" target="4ZtbwT0k7VQaQEq-_F7P-38" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="180" y="450" as="sourcePoint" />
             <mxPoint x="310" y="272.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="320" y="440" />
-              <mxPoint x="280" y="440" />
-              <mxPoint x="280" y="295" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="4ZtbwT0k7VQaQEq-_F7P-37" value="开模报价" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
@@ -57,10 +52,14 @@
         <mxCell id="4ZtbwT0k7VQaQEq-_F7P-68" value="产量编号&#xa;模具编号&#xa;产量&#xa;年份&#xa;月份" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-67" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="phaZ8rM3X3tsjUS_MmY6-4" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERoneToMany;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="4ZtbwT0k7VQaQEq-_F7P-16">
+        <mxCell id="phaZ8rM3X3tsjUS_MmY6-4" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERoneToMany;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="4ZtbwT0k7VQaQEq-_F7P-16">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="360" y="300" as="sourcePoint" />
             <mxPoint x="307" y="101" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="203" />
+              <mxPoint x="280" y="101" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="phaZ8rM3X3tsjUS_MmY6-6" value="供应商" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
