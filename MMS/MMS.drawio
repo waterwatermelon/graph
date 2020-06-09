@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-09T06:35:37.027Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="8wXrWhRzPeZKuqUwXucy" version="12.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-09T06:50:23.662Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="16_xZASmRdw0AEk-NiI2" version="12.9.5" type="github">
   <diagram id="NsPrAINzQS3ARWFUSx2h" name="类图">
     <mxGraphModel dx="690" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,10 +22,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4ZtbwT0k7VQaQEq-_F7P-37" value="开模报价" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="310" y="220" width="160" height="120" as="geometry" />
+          <mxGeometry x="310" y="220" width="160" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-38" value="开模申请编号&#xa;供应商编号&#xa;报价单文件&#xa;报价明细（每个零件的报价）" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-37" vertex="1">
-          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-38" value="报价编号&#xa;报价截止日期&#xa;报价评比结果&#xa;报价审核&#xa;报价评审结果&#xa;报价评审说明" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-37" vertex="1">
+          <mxGeometry y="30" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="4ZtbwT0k7VQaQEq-_F7P-35" value="模具" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="520" y="220" width="160" height="140" as="geometry" />
@@ -36,13 +36,13 @@
         <mxCell id="4ZtbwT0k7VQaQEq-_F7P-15" value="开模申请" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="80" y="90" width="160" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-16" value="开模申请编号&#xa;开模申请描述&#xa;开模类型&#xa;开模说明&#xa;&#xa;开模付款方式&#xa;开模摊销方式&#xa;年出货量评估&#xa;交付区域&#xa;&#xa;产品线总监审核通过&#xa;产品线总监驳回意见&#xa;（开模资料）&#xa;文件 零件开模图纸（多个）&#xa;文件 CMF&#xa;文件 开模说明&#xa;文件 2D图纸&#xa;文件 丝印&#xa;文件 其他&#xa;&#xa;报价审核&#xa;报价评审结果&#xa;报价评审说明&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-15" vertex="1">
+        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-16" value="开模申请编号&#xa;开模申请描述&#xa;开模类型&#xa;开模说明&#xa;&#xa;开模付款方式&#xa;开模摊销方式&#xa;年出货量评估&#xa;交付区域&#xa;&#xa;产品线总监审核通过&#xa;产品线总监驳回意见&#xa;（开模资料）&#xa;文件 零件开模图纸（多个）&#xa;文件 CMF&#xa;文件 开模说明&#xa;文件 2D图纸&#xa;文件 丝印&#xa;文件 其他&#xa;&#xa;开模报价编号&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-15" vertex="1">
           <mxGeometry y="30" width="160" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-40" value="供应商" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-40" value="开模报价明细" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="320" y="400" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-41" value="供应商编号&#xa;邮箱" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-40" vertex="1">
+        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-41" value="报价编号&#xa;供应商编号&#xa;报价单&#xa;报价明细&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-40" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="phaZ8rM3X3tsjUS_MmY6-2" value="零件" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
@@ -62,6 +62,12 @@
             <mxPoint x="360" y="300" as="sourcePoint" />
             <mxPoint x="307" y="101" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="phaZ8rM3X3tsjUS_MmY6-6" value="供应商" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="90" y="500" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="phaZ8rM3X3tsjUS_MmY6-7" value="供应商编号&#xa;邮箱" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="phaZ8rM3X3tsjUS_MmY6-6">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
