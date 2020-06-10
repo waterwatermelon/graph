@@ -1,16 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2020-06-10T11:14:53.667Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="2yudxTkSOME9TRP3k59V" version="13.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-10T11:43:33.540Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="tqfNrwshl0wtF8Z-AEZP" version="13.2.1" type="github">
   <diagram id="NsPrAINzQS3ARWFUSx2h" name="类图">
-    <mxGraphModel dx="352" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="340" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-45" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=none;startArrow=ERoneToMany;startFill=0;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.006;exitY=0.17;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4ZtbwT0k7VQaQEq-_F7P-41" target="4ZtbwT0k7VQaQEq-_F7P-38" edge="1">
+        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-45" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=none;startArrow=ERoneToMany;startFill=0;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.015;exitY=0.125;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4ZtbwT0k7VQaQEq-_F7P-41" target="4ZtbwT0k7VQaQEq-_F7P-38" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="300" y="443" as="sourcePoint" />
+            <mxPoint x="290" y="440" as="sourcePoint" />
             <mxPoint x="250" y="240" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="290" y="437" />
+              <mxPoint x="290" y="435" />
               <mxPoint x="290" y="310" />
+              <mxPoint x="310" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -19,7 +20,7 @@
             <mxRectangle x="310" y="220" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-38" value="报价编号&#xa;模具编号&#xa;报价截止日期&#xa;中标供应商编号&#xa;中标供应商名称&#xa;报价评选意见&#xa;报价审核意见？" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-37" vertex="1">
+        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-38" value="报价编号&#xa;模具编号&#xa;报价截止日期&#xa;中标供应商编号&#xa;中标供应商名称&#xa;报价评审意见&#xa;报价审核意见" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-37" vertex="1">
           <mxGeometry y="30" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="phaZ8rM3X3tsjUS_MmY6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=ERoneToMany;endFill=0;elbow=vertical;strokeColor=#000000;entryX=-0.004;entryY=0.17;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4ZtbwT0k7VQaQEq-_F7P-36" target="4ZtbwT0k7VQaQEq-_F7P-68" edge="1">
@@ -150,7 +151,7 @@
             <mxRectangle x="710" y="600" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="phaZ8rM3X3tsjUS_MmY6-62" value="编号&#xa;评审编号&#xa;零件编号&#xa;评审报告文件编号&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="phaZ8rM3X3tsjUS_MmY6-61" vertex="1">
+        <mxCell id="phaZ8rM3X3tsjUS_MmY6-62" value="编号&#xa;评审编号&#xa;零件编号&#xa;评审报告文件&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="phaZ8rM3X3tsjUS_MmY6-61" vertex="1">
           <mxGeometry y="30" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="phaZ8rM3X3tsjUS_MmY6-79" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=ERone;endFill=0;strokeColor=#000000;fontColor=#BBBBBB;entryX=-0.004;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4ZtbwT0k7VQaQEq-_F7P-36" target="phaZ8rM3X3tsjUS_MmY6-75" edge="1">
@@ -244,12 +245,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4ZtbwT0k7VQaQEq-_F7P-40" value="供应商报价" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="310" y="390" width="130" height="140" as="geometry">
+          <mxGeometry x="310" y="390" width="130" height="150" as="geometry">
             <mxRectangle x="320" y="400" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-41" value="报价编号&#xa;供应商名称&#xa;报价单&#xa;模具合计金额&#xa;制品合计金额&#xa;报价完成时间&#xa;报价审核意见" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-40" vertex="1">
-          <mxGeometry y="30" width="130" height="110" as="geometry" />
+        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-41" value="报价编号&#xa;供应商编号&#xa;供应商名称&#xa;报价单&#xa;模具合计金额&#xa;制品合计金额&#xa;报价完成时间&#xa;报价审核意见" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-40" vertex="1">
+          <mxGeometry y="30" width="130" height="120" as="geometry" />
         </mxCell>
         <mxCell id="phaZ8rM3X3tsjUS_MmY6-77" value="开模资料历史" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="1050" y="3" width="150" height="170" as="geometry">
@@ -312,7 +313,7 @@
             <mxRectangle x="710" y="600" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="phaZ8rM3X3tsjUS_MmY6-60" value="编号&#xa;模具编号&#xa;评审截止时间&#xa;评审通过时间&#xa;评审审核意见&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="phaZ8rM3X3tsjUS_MmY6-59" vertex="1">
+        <mxCell id="phaZ8rM3X3tsjUS_MmY6-60" value="编号&#xa;模具编号&#xa;评审截止时间&#xa;评审审核意见&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="phaZ8rM3X3tsjUS_MmY6-59" vertex="1">
           <mxGeometry y="30" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="phaZ8rM3X3tsjUS_MmY6-106" value="文件" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
