@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-06-10T09:09:00.790Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="vvy_Bm1oOWQa-eFq0zxA" version="13.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-10T09:47:28.838Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="Byvlo6Jx_aAp8Z4dPiLf" version="13.2.1" type="github">
   <diagram id="NsPrAINzQS3ARWFUSx2h" name="类图">
-    <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="334" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,6 +53,38 @@
         </mxCell>
         <mxCell id="phaZ8rM3X3tsjUS_MmY6-109" value="编号&#xa;开模资料编号&#xa;零件编号&#xa;零件开模图纸&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="phaZ8rM3X3tsjUS_MmY6-108" vertex="1">
           <mxGeometry y="30" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H4N9NTBg1bEjD5q0KLPL-5" value="开模说明" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="220" y="80" width="100" height="70" as="geometry">
+            <mxRectangle x="240" y="40" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H4N9NTBg1bEjD5q0KLPL-6" value="编号&#xa;名称" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="H4N9NTBg1bEjD5q0KLPL-5">
+          <mxGeometry y="30" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H4N9NTBg1bEjD5q0KLPL-3" value="开模类型" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="110" y="80" width="100" height="70" as="geometry">
+            <mxRectangle x="240" y="40" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H4N9NTBg1bEjD5q0KLPL-4" value="编号&#xa;名称" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="H4N9NTBg1bEjD5q0KLPL-3">
+          <mxGeometry y="30" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H4N9NTBg1bEjD5q0KLPL-7" value="开模付款方式" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="325" y="90" width="100" height="70" as="geometry">
+            <mxRectangle x="240" y="40" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H4N9NTBg1bEjD5q0KLPL-8" value="编号&#xa;名称" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="H4N9NTBg1bEjD5q0KLPL-7">
+          <mxGeometry y="30" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H4N9NTBg1bEjD5q0KLPL-9" value="开模摊销方式" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="103" width="100" height="70" as="geometry">
+            <mxRectangle x="240" y="40" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H4N9NTBg1bEjD5q0KLPL-10" value="编号&#xa;名称" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="H4N9NTBg1bEjD5q0KLPL-9">
+          <mxGeometry y="30" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="phaZ8rM3X3tsjUS_MmY6-48" value="模具验收" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="530" y="600" width="160" height="150" as="geometry">
@@ -175,7 +207,7 @@
             <mxRectangle x="530" y="220" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-36" value="模具编号&#xa;开模申请编号&#xa;状态:[提单、总监审批、提交资料、&#xa;报价、总监核准、模评、试模、&#xa;进度表上传]&#xa;（开模信息）&#xa;开模类型[]&#xa;开模说明[]&#xa;开模付款方式[]&#xa;开模摊销方式&#xa;年出货量评估&#xa;交付区域&#xa;提单时间&#xa;寿命&#xa;达量返还的下限&#xa;产品线总监审核意见&#xa;&#xa;已付款金额=开票总金额&#xa;累积出货总量&#xa;&#xa;是否停产&#xa;报废处理方式[&#39;供应商自行处理&#39;,&#39;转卖&#39;,&#39;废品处理&#39;]&#xa;模具完成时间&#xa;停产审核意见" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-35" vertex="1">
+        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-36" value="模具编号&#xa;开模申请编号&#xa;状态:[提单、总监审批、提交资料、&#xa;报价、总监核准、模评、试模、&#xa;进度表上传]&#xa;（开模信息）&#xa;开模类型[]&#xa;开模说明[]&#xa;开模付款方式[]&#xa;开模摊销方式&#xa;年出货量评估&#xa;月出货量评估&#xa;交付区域&#xa;提单时间&#xa;寿命&#xa;达量返还的下限&#xa;产品线总监审核意见&#xa;&#xa;已付款金额=开票总金额&#xa;累积出货总量&#xa;&#xa;是否停产&#xa;报废处理方式[&#39;供应商自行处理&#39;,&#39;转卖&#39;,&#39;废品处理&#39;]&#xa;模具完成时间&#xa;停产审核意见" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-35" vertex="1">
           <mxGeometry y="30" width="180" height="350" as="geometry" />
         </mxCell>
         <mxCell id="4ZtbwT0k7VQaQEq-_F7P-67" value="模具产量" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
