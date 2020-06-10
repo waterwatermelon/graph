@@ -1,15 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2020-06-10T01:27:32.438Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="Hv1vSFf2qVLx7nrS1txj" version="12.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-10T01:28:00.415Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="-N9JeQ18oAULQZu7B2Yf" version="12.9.5" type="github">
   <diagram id="NsPrAINzQS3ARWFUSx2h" name="类图">
     <mxGraphModel dx="1847" dy="1644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-43" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.013;exitY=0.865;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4ZtbwT0k7VQaQEq-_F7P-16" target="4ZtbwT0k7VQaQEq-_F7P-38" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="360" y="400" as="sourcePoint" />
-            <mxPoint x="460" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="4ZtbwT0k7VQaQEq-_F7P-45" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.148;exitDx=0;exitDy=0;startArrow=ERoneToMany;startFill=0;endFill=0;exitPerimeter=0;" parent="1" source="4ZtbwT0k7VQaQEq-_F7P-41" target="4ZtbwT0k7VQaQEq-_F7P-38" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="180" y="450" as="sourcePoint" />
@@ -24,13 +18,13 @@
         <mxCell id="4ZtbwT0k7VQaQEq-_F7P-38" value="报价编号&#xa;报价截止日期&#xa;报价审核&#xa;报价评审结果=中标供应商？&#xa;报价评审意见&#xa;&#xa;开模报价模板文件？" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-37" vertex="1">
           <mxGeometry y="30" width="90" as="geometry" />
         </mxCell>
-        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-15" value="开模申请" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="80" y="90" width="160" height="440" as="geometry">
-            <mxRectangle x="80" y="90" width="90" height="30" as="alternateBounds" />
+        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-15" value="开模申请" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1" collapsed="1">
+          <mxGeometry x="80" y="90" width="90" height="30" as="geometry">
+            <mxRectangle x="80" y="90" width="160" height="440" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4ZtbwT0k7VQaQEq-_F7P-16" value="开模申请编号&#xa;开模申请描述&#xa;开模类型&#xa;开模说明&#xa;&#xa;开模付款方式&#xa;开模摊销方式&#xa;年出货量评估&#xa;交付区域&#xa;&#xa;提单时间&#xa;完成时间？&#xa;&#xa;产品线总监审核意见&#xa;（开模资料）&#xa;文件 零件开模图纸（多个）&#xa;文件 CMF&#xa;文件 开模说明&#xa;文件 2D图纸&#xa;文件 丝印&#xa;文件 其他&#xa;&#xa;开模报价编号&#xa;&#xa;报价审核意见&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-15" vertex="1">
-          <mxGeometry y="30" width="160" height="410" as="geometry" />
+          <mxGeometry y="30" width="90" as="geometry" />
         </mxCell>
         <mxCell id="4ZtbwT0k7VQaQEq-_F7P-40" value="开模报价明细" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1" collapsed="1">
           <mxGeometry x="320" y="400" width="120" height="30" as="geometry">
@@ -214,7 +208,7 @@
             <mxRectangle x="530" y="220" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-36" value="模具编号&#xa;开模申请编号&#xa;（开模信息）&#xa;开模类型&#xa;开模说明&#xa;&#xa;开模付款方式&#xa;开模摊销方式&#xa;年出货量评估&#xa;交付区域&#xa;提单时间&#xa;&#xa;产品线总监审核意见&#xa;（开模资料）&#xa;文件 零件开模图纸（多个）&#xa;文件 CMF&#xa;文件 开模说明&#xa;文件 2D图纸&#xa;文件 丝印&#xa;文件 其他&#xa;开模报价编号&#xa;&#xa;报价审核意见&#xa;已付款金额=开票总金额&#xa;模具产量编号&#xa;出货总量&#xa;&#xa;是否停产&#xa;报废处理[&#39;供应商自行处理&#39;,&#39;转卖&#39;,&#39;废品处理&#39;]&#xa;模具完成时间=量产累积时间？&#xa;停产审核意见" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-35" vertex="1">
+        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-36" value="模具编号&#xa;开模申请编号&#xa;状态&#xa;（开模信息）&#xa;开模类型&#xa;开模说明&#xa;&#xa;开模付款方式&#xa;开模摊销方式&#xa;年出货量评估&#xa;交付区域&#xa;提单时间&#xa;&#xa;产品线总监审核意见&#xa;（开模资料）&#xa;文件 零件开模图纸（多个）&#xa;文件 CMF&#xa;文件 开模说明&#xa;文件 2D图纸&#xa;文件 丝印&#xa;文件 其他&#xa;开模报价编号&#xa;&#xa;报价审核意见&#xa;已付款金额=开票总金额&#xa;模具产量编号&#xa;出货总量&#xa;&#xa;是否停产&#xa;报废处理[&#39;供应商自行处理&#39;,&#39;转卖&#39;,&#39;废品处理&#39;]&#xa;模具完成时间=量产累积时间？&#xa;停产审核意见" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-35" vertex="1">
           <mxGeometry y="30" width="160" height="350" as="geometry" />
         </mxCell>
       </root>
