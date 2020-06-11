@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-11T07:31:20.782Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="0UuJN4ty2bwllAngoDqc" version="13.2.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-06-11T08:25:05.809Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="JJFI9ihbfux61cb6SVpS" version="13.2.1" type="github" pages="4">
   <diagram id="NsPrAINzQS3ARWFUSx2h" name="类图">
     <mxGraphModel dx="690" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -225,7 +225,7 @@
             <mxRectangle x="320" y="400" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-41" value="报价编号&#xa;供应商编号&#xa;供应商名称&#xa;报价单&#xa;模具合计金额&#xa;制品合计金额&#xa;报价完成时间&#xa;报价审核意见&#xa;&#xa;是否报价、是否通过" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-40" vertex="1">
+        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-41" value="报价编号&#xa;供应商编号&#xa;供应商名称&#xa;报价单&#xa;模具合计金额&#xa;制品合计金额&#xa;报价完成时间&#xa;报价审核意见&#xa;&#xa;是否报价、是否通过、合计金额、&#xa;报价评选意见" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-40" vertex="1">
           <mxGeometry y="30" width="130" height="160" as="geometry" />
         </mxCell>
         <mxCell id="phaZ8rM3X3tsjUS_MmY6-77" value="开模资料历史" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
@@ -517,9 +517,6 @@
         </mxCell>
         <mxCell id="rxsVeMnIboit7UgT6HVC-6" value="&lt;font&gt;模具报价&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;align=center;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
           <mxGeometry x="110" y="250" width="105" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rxsVeMnIboit7UgT6HVC-20" value="&lt;table cellpadding=&quot;4&quot; cellspacing=&quot;0&quot; border=&quot;1&quot; style=&quot;font-size: 1em ; width: 100% ; height: 100%&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;模具编号&lt;/th&gt;&lt;th&gt;操作&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;xxx111&lt;/td&gt;&lt;td&gt;报价&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;xxx222&lt;/td&gt;&lt;td&gt;修改报价&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; " style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=none;fontColor=#000000;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
-          <mxGeometry x="242" y="179" width="258" height="120" as="geometry" />
         </mxCell>
         <mxCell id="olPVX9HeWAu0YtL3tU8W-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
           <mxGeometry x="112" y="460" width="416" height="164" as="geometry" />
