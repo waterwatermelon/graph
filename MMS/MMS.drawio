@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-06-10T12:35:33.453Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="Z3aLdiHdwYHqfEvzc50r" version="13.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-11T02:28:37.161Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="iJhrxd8qdpyyjykidXKq" version="13.2.1" type="github" pages="2">
   <diagram id="NsPrAINzQS3ARWFUSx2h" name="类图">
-    <mxGraphModel dx="850" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="690" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -323,6 +323,39 @@
         </mxCell>
         <mxCell id="phaZ8rM3X3tsjUS_MmY6-107" value="编号&#xa;模具编号&#xa;文件编号&#xa;文件名称&#xa;文件大类（零件图纸、报价单等）&#xa;文件小类&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="phaZ8rM3X3tsjUS_MmY6-106" vertex="1">
           <mxGeometry y="30" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="H4N9NTBg1bEjD5q0KLPL-19" value="模具与流实例记录" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="10" y="560" width="110" height="110" as="geometry">
+            <mxRectangle x="240" y="40" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H4N9NTBg1bEjD5q0KLPL-20" value="编号&#xa;模具编号&#xa;提单流&#xa;修模流&#xa;试模流" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="H4N9NTBg1bEjD5q0KLPL-19">
+          <mxGeometry y="30" width="110" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RNah698bj2emm4qRknt2" name="Authorize">
+    <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="1vu3u5ijJ9Em0-b-EK9I-0" />
+        <mxCell id="1vu3u5ijJ9Em0-b-EK9I-1" parent="1vu3u5ijJ9Em0-b-EK9I-0" />
+        <mxCell id="1vu3u5ijJ9Em0-b-EK9I-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;fontSize=14;" vertex="1" parent="1vu3u5ijJ9Em0-b-EK9I-1">
+          <mxGeometry x="210" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1vu3u5ijJ9Em0-b-EK9I-3" value="供应链Web" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1vu3u5ijJ9Em0-b-EK9I-1">
+          <mxGeometry x="260" y="160" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="1vu3u5ijJ9Em0-b-EK9I-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="1vu3u5ijJ9Em0-b-EK9I-3">
+          <mxGeometry x="45" y="100" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1vu3u5ijJ9Em0-b-EK9I-5" value="用户登录" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=14;" edge="1" target="1vu3u5ijJ9Em0-b-EK9I-4" parent="1vu3u5ijJ9Em0-b-EK9I-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="80" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="80" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
