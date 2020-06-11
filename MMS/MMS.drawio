@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-06-11T11:15:57.256Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="uCFwBT1wpyVQUMN5BueG" version="13.2.1" type="github" pages="4">
-  <diagram id="NsPrAINzQS3ARWFUSx2h" name="类图">
-    <mxGraphModel dx="690" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2020-06-11T12:12:29.089Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="b7FupeCSQI3tCatJ2LoS" version="13.2.1" type="github" pages="4">
+  <diagram id="NsPrAINzQS3ARWFUSx2h" name="实体关系图">
+    <mxGraphModel dx="1020" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -208,7 +208,7 @@
             <mxRectangle x="530" y="220" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-36" value="模具编号&#xa;开模申请编号&#xa;（开模信息）&#xa;开模类型[]&#xa;开模说明[]&#xa;开模付款方式[]&#xa;开模摊销方式&#xa;年出货量评估&#xa;月出货量评估&#xa;交付区域&#xa;提单时间&#xa;寿命&#xa;达量返还的下限&#xa;产品线总监审核意见&#xa;已付款金额=开票总金额&#xa;累积出货总量&#xa;是否停产&#xa;报废处理方式[&#39;供应商自行处理&#39;,&#39;转卖&#39;,&#39;废品处理&#39;]&#xa;停产审核意见&#xa;&#xa;摊销时间（单位/年）&#xa;表单标题&#xa;产品大类、产品小类、产品型号&#xa;状态:[提单、上传开模资料、&#xa;模具报价、模具评审、开模计划、&#xa;试模验收、模具量产、模具验收、&#xa;模具建档]" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-35" vertex="1">
+        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-36" value="模具编号&#xa;开模申请编号&#xa;（开模信息）&#xa;表单标题&#xa;产品大类&#xa;产品小类&#xa;产品型号&#xa;开模类型[]&#xa;开模说明[]&#xa;开模付款方式[]&#xa;开模摊销方式&#xa;年出货量评估&#xa;月出货量评估&#xa;交付区域&#xa;提单时间&#xa;寿命&#xa;达量返还的下限&#xa;产品线总监审核意见&#xa;已付款金额=开票总金额&#xa;累积出货总量&#xa;（停产）&#xa;是否停产&#xa;报废处理方式[&#39;供应商自行处理&#39;,&#39;转卖&#39;,&#39;废品处理&#39;]&#xa;停产审核意见&#xa;摊销时间（单位/年）&#xa;&#xa;状态:[提单、上传开模资料、&#xa;模具报价、模具评审、开模计划、&#xa;试模验收、模具量产、模具验收、&#xa;模具建档]" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-35" vertex="1">
           <mxGeometry y="30" width="180" height="370" as="geometry" />
         </mxCell>
         <mxCell id="phaZ8rM3X3tsjUS_MmY6-21" value="模具试模" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
@@ -331,7 +331,7 @@
             <mxRectangle x="10" y="680" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l443qi18ZTVFyk3YpZq4-2" value="编号&#xa;uid&#xa;操作时间&#xa;操作内容&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="l443qi18ZTVFyk3YpZq4-1">
+        <mxCell id="l443qi18ZTVFyk3YpZq4-2" value="编号&#xa;用户编号&#xa;操作时间&#xa;操作内容&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="l443qi18ZTVFyk3YpZq4-1">
           <mxGeometry y="30" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="phaZ8rM3X3tsjUS_MmY6-94" value="报价明细" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
@@ -583,6 +583,21 @@
         </mxCell>
         <mxCell id="L6gKtZ7LIEnKEUbc-8W--0" value="&lt;font style=&quot;font-size: 14px&quot;&gt;取消&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
           <mxGeometry x="653" y="1033.25" width="70" height="29.75" as="geometry" />
+        </mxCell>
+        <mxCell id="UzzH8skEVkYtEP_ZFBpS-0" value="&lt;span style=&quot;font-size: 18px&quot;&gt;通知供应商中标结果&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#000000;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
+          <mxGeometry x="56" y="1188" width="172" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="UzzH8skEVkYtEP_ZFBpS-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;align=left;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
+          <mxGeometry x="58" y="1212" width="250" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="UzzH8skEVkYtEP_ZFBpS-3" value="xxx供应商你好：&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; 恭喜您！中标我司xx模具制造项目。&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: right&quot;&gt;xwzh公司&lt;/div&gt;&lt;div style=&quot;text-align: right&quot;&gt;2020年06月12日&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#000000;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
+          <mxGeometry x="58" y="1214" width="250" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="UzzH8skEVkYtEP_ZFBpS-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;align=left;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
+          <mxGeometry x="332" y="1212" width="326" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="UzzH8skEVkYtEP_ZFBpS-5" value="xxx供应商你好：&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; 很遗憾！您没有中标我司的xx模具制造项目。&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: right&quot;&gt;xwzh公司&lt;/div&gt;&lt;div style=&quot;text-align: right&quot;&gt;2020年06月12日&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#000000;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
+          <mxGeometry x="335" y="1215" width="313" height="106" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
