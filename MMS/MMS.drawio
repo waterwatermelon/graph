@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-11T09:37:56.975Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="LIrxUJLUoQr_KXJZjRdL" version="13.2.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-06-11T09:50:27.346Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="IkfSp17cPyzLhk7gpxlS" version="13.2.1" type="github" pages="4">
   <diagram id="NsPrAINzQS3ARWFUSx2h" name="类图">
     <mxGraphModel dx="690" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -546,7 +546,7 @@
           <mxGeometry x="112" y="722" width="82" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QJaPdSr2k1rVsb3QZ-IW-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
-          <mxGeometry x="108" y="764" width="416" height="164" as="geometry" />
+          <mxGeometry x="108" y="764" width="373" height="164" as="geometry" />
         </mxCell>
         <mxCell id="QJaPdSr2k1rVsb3QZ-IW-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
           <mxGeometry x="108" y="764" width="105" height="163" as="geometry" />
@@ -561,25 +561,28 @@
           <mxGeometry x="217" y="790" width="258" height="129" as="geometry" />
         </mxCell>
         <mxCell id="QJaPdSr2k1rVsb3QZ-IW-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;align=left;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
-          <mxGeometry x="554" y="944" width="315" height="333" as="geometry" />
+          <mxGeometry x="500" y="739" width="315" height="333" as="geometry" />
         </mxCell>
         <mxCell id="QJaPdSr2k1rVsb3QZ-IW-11" value="标题：中移GM220-全新开模" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;fontColor=#000000;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
-          <mxGeometry x="565" y="954" width="237" height="26" as="geometry" />
+          <mxGeometry x="511" y="749" width="237" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QJaPdSr2k1rVsb3QZ-IW-12" value="开模/修模编号：xxxx0001" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;fontColor=#000000;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
-          <mxGeometry x="568" y="985" width="217" height="26" as="geometry" />
+          <mxGeometry x="514" y="780" width="217" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QJaPdSr2k1rVsb3QZ-IW-13" value="模具寿命： 50000套&amp;nbsp; 产出总量：21000套" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;fontColor=#000000;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
-          <mxGeometry x="565" y="1033" width="341" height="26" as="geometry" />
+        <mxCell id="QJaPdSr2k1rVsb3QZ-IW-13" value="&lt;font style=&quot;font-size: 14px&quot;&gt;模具寿命： 50000套&amp;nbsp; 产出总量：21000套&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;fontColor=#000000;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
+          <mxGeometry x="518" y="819" width="268" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="QJaPdSr2k1rVsb3QZ-IW-14" value="产量填写" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;fontColor=#000000;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
-          <mxGeometry x="572" y="1063" width="82" height="26" as="geometry" />
+        <mxCell id="QJaPdSr2k1rVsb3QZ-IW-14" value="产量填写" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#000000;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
+          <mxGeometry x="526" y="861" width="66" height="21" as="geometry" />
         </mxCell>
         <mxCell id="QJaPdSr2k1rVsb3QZ-IW-16" value="&lt;table cellpadding=&quot;4&quot; cellspacing=&quot;0&quot; border=&quot;1&quot; style=&quot;font-size: 1em ; width: 100% ; height: 100%&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;月份&lt;/th&gt;&lt;th&gt;产量&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2020年01月&lt;/td&gt;&lt;td&gt;2000&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2020年02月&lt;br&gt;&lt;/td&gt;&lt;td&gt;（未申报）&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2020年03月&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;input style=&quot;width: 80px&quot; value=&quot;9900&quot;&gt;&lt;u&gt;保存&lt;/u&gt; &lt;u&gt;取消&lt;/u&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; " style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=none;fontColor=#000000;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
-          <mxGeometry x="575" y="1093" width="258" height="129" as="geometry" />
+          <mxGeometry x="521" y="888" width="258" height="129" as="geometry" />
         </mxCell>
         <mxCell id="QJaPdSr2k1rVsb3QZ-IW-20" value="&lt;font style=&quot;font-size: 14px&quot;&gt;保存提交&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
-          <mxGeometry x="772" y="1234" width="80" height="34" as="geometry" />
+          <mxGeometry x="728" y="1033.25" width="70" height="29.75" as="geometry" />
+        </mxCell>
+        <mxCell id="L6gKtZ7LIEnKEUbc-8W--0" value="&lt;font style=&quot;font-size: 14px&quot;&gt;取消&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;" vertex="1" parent="rxsVeMnIboit7UgT6HVC-1">
+          <mxGeometry x="653" y="1033.25" width="70" height="29.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
