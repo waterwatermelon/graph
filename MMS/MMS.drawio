@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-14T07:27:15.133Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="pS7qYbigVgnm0vzgowar" version="13.2.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-06-14T07:51:50.008Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="4JVi5AeO-6LWjspuN1Py" version="13.2.4" type="github" pages="4">
   <diagram id="NsPrAINzQS3ARWFUSx2h" name="实体关系图">
     <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="870" y="330" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="780" y="116" />
+              <mxPoint x="780" y="123" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -58,7 +58,7 @@
         <mxCell id="phaZ8rM3X3tsjUS_MmY6-50" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=ERone;endFill=0;strokeColor=#000000;fontColor=#BBBBBB;" parent="1" source="4ZtbwT0k7VQaQEq-_F7P-36" target="phaZ8rM3X3tsjUS_MmY6-49" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="480" y="233" />
+              <mxPoint x="480" y="244" />
               <mxPoint x="480" y="690" />
             </Array>
           </mxGeometry>
@@ -98,7 +98,7 @@
         <mxCell id="phaZ8rM3X3tsjUS_MmY6-3" value="零件编号&#xa;零件名称&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="phaZ8rM3X3tsjUS_MmY6-2" vertex="1">
           <mxGeometry y="30" width="100" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="phaZ8rM3X3tsjUS_MmY6-13" value="模具零件" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="phaZ8rM3X3tsjUS_MmY6-13" value="模具零件" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="320" y="18" width="110" height="110" as="geometry">
             <mxRectangle x="320" y="10" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -162,12 +162,12 @@
             <mxPoint x="505" y="79" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-35" value="模具" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-35" value="模具" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="510" y="18" width="180" height="422" as="geometry">
             <mxRectangle x="530" y="220" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-36" value="模具id&#xa;开模申请编号&#xa;（开模信息）&#xa;表单标题&#xa;产品大类&#xa;产品小类&#xa;产品型号&#xa;开模类型[]&#xa;开模说明[]&#xa;开模付款方式[]&#xa;开模摊销方式&#xa;年出货量评估&#xa;月出货量评估&#xa;交付区域&#xa;提单时间&#xa;寿命&#xa;+ 达量返还的下限&#xa;+ 达量返还已返还&#xa;产品线总监审核意见&#xa;已付款金额=开票总金额&#xa;累积出货总量&#xa;（停产）&#xa;是否停产&#xa;报废处理方式[&#39;供应商自行处理&#39;,&#39;转卖&#39;,&#39;废品处理&#39;]&#xa;停产审核意见&#xa;摊销时间（单位/年）&#xa;状态&#xa;+ 模具编号前缀" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-35" vertex="1">
+        <mxCell id="4ZtbwT0k7VQaQEq-_F7P-36" value="模具id&#xa;开模申请编号&#xa;（开模信息）&#xa;表单标题&#xa;产品大类&#xa;产品小类&#xa;产品型号&#xa;开模类型[]&#xa;开模说明[]&#xa;开模付款方式[]&#xa;开模摊销方式&#xa;年出货量评估&#xa;月出货量评估&#xa;交付区域&#xa;提单时间&#xa;寿命&#xa;产品线总监审核意见&#xa;已付款金额=开票总金额&#xa;累积出货总量&#xa;（停产）&#xa;是否停产&#xa;报废处理方式[&#39;供应商自行处理&#39;,&#39;转卖&#39;,&#39;废品处理&#39;]&#xa;停产审核意见&#xa;摊销时间（单位/年）&#xa;状态&#xa;+ 模具编号前缀&#xa;+ 负责生产的供应商编号" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4ZtbwT0k7VQaQEq-_F7P-35" vertex="1">
           <mxGeometry y="30" width="180" height="392" as="geometry" />
         </mxCell>
         <mxCell id="phaZ8rM3X3tsjUS_MmY6-21" value="模具试模" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
