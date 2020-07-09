@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-09T06:50:30.946Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="1EJxiwLaSayqrKZeWM-C" version="13.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-07-09T09:45:13.605Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="3guaIsnJuPML5OZU4JRI" version="13.4.0" type="github" pages="3">
   <diagram name="新建文档" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1035" dy="594" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -198,26 +198,20 @@
         <mxCell id="NGS-09BJn5TKwVsRdB1O-0" value="ZHfile" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;align=center;" vertex="1" parent="UEGy6zOsXdSPRU7s7sRE-1">
           <mxGeometry x="474" y="70" width="100" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="NGS-09BJn5TKwVsRdB1O-1" value="外部服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;align=center;" vertex="1" parent="UEGy6zOsXdSPRU7s7sRE-1">
-          <mxGeometry x="100" y="70" width="100" height="340" as="geometry" />
-        </mxCell>
-        <mxCell id="NGS-09BJn5TKwVsRdB1O-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="NGS-09BJn5TKwVsRdB1O-1">
-          <mxGeometry x="45" y="95" width="10" height="223" as="geometry" />
-        </mxCell>
         <mxCell id="NGS-09BJn5TKwVsRdB1O-2" value="DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;align=center;" vertex="1" parent="UEGy6zOsXdSPRU7s7sRE-1">
           <mxGeometry x="590" y="70" width="100" height="340" as="geometry" />
         </mxCell>
         <mxCell id="NGS-09BJn5TKwVsRdB1O-3" value="ODS&lt;br&gt;文档编辑器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;align=center;" vertex="1" parent="UEGy6zOsXdSPRU7s7sRE-1">
-          <mxGeometry x="260" y="70" width="100" height="330" as="geometry" />
+          <mxGeometry x="220" y="70" width="100" height="330" as="geometry" />
         </mxCell>
         <mxCell id="NGS-09BJn5TKwVsRdB1O-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="NGS-09BJn5TKwVsRdB1O-3">
           <mxGeometry x="45" y="95.5" width="10" height="44.5" as="geometry" />
         </mxCell>
-        <mxCell id="NGS-09BJn5TKwVsRdB1O-7" value="编辑文档内容" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=14;" edge="1" parent="UEGy6zOsXdSPRU7s7sRE-1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="155" y="170" as="sourcePoint" />
-            <mxPoint x="300" y="170" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="t8xcIrU0sIx8-DJbX6kn-0" value="ODS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;align=center;" vertex="1" parent="UEGy6zOsXdSPRU7s7sRE-1">
+          <mxGeometry x="350" y="70" width="100" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="t8xcIrU0sIx8-DJbX6kn-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="t8xcIrU0sIx8-DJbX6kn-0">
+          <mxGeometry x="45" y="95" width="10" height="175" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
