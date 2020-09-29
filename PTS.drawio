@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-09-28T08:17:56.612Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="MQrT1gBGewo0evtdLmTi" version="13.5.4" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-09-29T00:55:48.095Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="5jKipyPf_ICSsRyCRTqM" version="13.7.5" type="github" pages="2">
   <diagram id="fNKAHcspk09XAcjnbf-g" name="工单管理">
     <mxGraphModel dx="1021" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -131,28 +131,10 @@
           <mxGeometry x="73" y="690" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NJt9awCA1hXl86DGp1sZ-56" value="1.创建工单的内容" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
-          <mxGeometry x="130" y="770" width="160" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="NJt9awCA1hXl86DGp1sZ-63" value="需求文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
-          <mxGeometry x="140" y="875" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="NJt9awCA1hXl86DGp1sZ-64" value="点击上传" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
-          <mxGeometry x="228" y="870" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NJt9awCA1hXl86DGp1sZ-65" value="List" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
-          <mxGeometry x="228" y="915" width="417" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="NJt9awCA1hXl86DGp1sZ-66" value="已上传附件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
-          <mxGeometry x="120" y="915" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="NJt9awCA1hXl86DGp1sZ-67" value="需求文档.doc&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
-          <mxGeometry x="235" y="925" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NJt9awCA1hXl86DGp1sZ-68" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;glass=0;sketch=0;fontSize=20;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
-          <mxGeometry x="335" y="932" width="16" height="16" as="geometry" />
+          <mxGeometry x="130" y="770" width="500" height="240" as="geometry" />
         </mxCell>
         <mxCell id="NJt9awCA1hXl86DGp1sZ-69" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
-          <mxGeometry x="138" y="1030" width="492" height="170" as="geometry" />
+          <mxGeometry x="130" y="1030" width="500" height="170" as="geometry" />
         </mxCell>
         <mxCell id="NJt9awCA1hXl86DGp1sZ-70" value="实施单位" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
           <mxGeometry x="145" y="1069" width="70" height="20" as="geometry" />
