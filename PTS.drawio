@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-09T09:10:59.705Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="MhREU4BbaHVi-2WcMxqM" version="13.7.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-10-09T11:12:53.095Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="yZqtYkLyJlpjvGTyfMZC" version="13.7.9" type="github" pages="2">
   <diagram id="fNKAHcspk09XAcjnbf-g" name="工单管理">
     <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -816,10 +816,10 @@
         <mxCell id="I-4cFuCh_W1NnPNkLxsY-40" value="2020-09-30 12:23:11" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=14;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
           <mxGeometry x="424.5" y="5420" width="145.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="g1TH_4Z1vaufxFGZUotw-0" value="指派下一道工序" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="NJt9awCA1hXl86DGp1sZ-11">
+        <mxCell id="g1TH_4Z1vaufxFGZUotw-0" value="指派下一道工序" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
           <mxGeometry x="106" y="1874.5" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="g1TH_4Z1vaufxFGZUotw-1" value="Select" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="NJt9awCA1hXl86DGp1sZ-11">
+        <mxCell id="g1TH_4Z1vaufxFGZUotw-1" value="Select" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
           <mxGeometry x="221.25" y="1873" width="395" height="25" as="geometry" />
         </mxCell>
         <mxCell id="NJt9awCA1hXl86DGp1sZ-17" value="备注" parent="0" visible="0" />
@@ -1200,10 +1200,10 @@
           <mxGeometry x="955" y="89.5" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="fgvam9QdfT0ZGoFE5E7N-109" value="部门树" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeColor=#000000;fontSize=16;fillColor=#FFFFFF;" parent="oqYI3ofI4eNtObddCJwc-1" vertex="1">
-          <mxGeometry x="762" y="130" width="106" height="160" as="geometry" />
+          <mxGeometry x="762" y="130" width="106" height="180" as="geometry" />
         </mxCell>
         <mxCell id="fgvam9QdfT0ZGoFE5E7N-111" value="&lt;table cellpadding=&quot;4&quot; cellspacing=&quot;0&quot; border=&quot;1&quot; style=&quot;font-size: 1em ; width: 100% ; height: 100%&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;序号&lt;/th&gt;&lt;th&gt;用户&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; " style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;glass=0;sketch=0;strokeColor=#000000;fillColor=#FFFFFF;" parent="oqYI3ofI4eNtObddCJwc-1" vertex="1">
-          <mxGeometry x="880" y="152.5" width="209" height="127.5" as="geometry" />
+          <mxGeometry x="880" y="170" width="209" height="140" as="geometry" />
         </mxCell>
         <mxCell id="fgvam9QdfT0ZGoFE5E7N-113" value="设置" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeColor=#000000;fillColor=#FFFFFF;fontSize=16;align=center;arcSize=12;" parent="oqYI3ofI4eNtObddCJwc-1" vertex="1">
           <mxGeometry x="572" y="210" width="60" height="30" as="geometry" />
@@ -1238,6 +1238,9 @@
         </mxCell>
         <mxCell id="nxuUhkBw9cjpqZy0V6j2-5" value="&lt;p&gt;&lt;span&gt;&lt;font face=&quot;宋体&quot;&gt;品质质检表单界面是否能够看见任务实施过程的内容；&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;font face=&quot;宋体&quot;&gt;入库表单界面是否可见任务实施和品质检查的内容；&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;font face=&quot;宋体&quot;&gt;工单结算表单界面是否可见任务实时和品质检查的内容；&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontColor=#545454;" parent="oqYI3ofI4eNtObddCJwc-1" vertex="1">
           <mxGeometry x="738" y="-300" width="420" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="xpk6q5MUWkHOSpNfBMT7-0" value="&lt;font color=&quot;#aaaaaa&quot;&gt;输入用户名称&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeColor=#000000;fillColor=#FFFFFF;fontSize=16;align=left;" vertex="1" parent="oqYI3ofI4eNtObddCJwc-1">
+          <mxGeometry x="880" y="130" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZW8fM5jwwC7szS8vPUIb-1" value="备注" parent="oqYI3ofI4eNtObddCJwc-0" />
         <mxCell id="ZW8fM5jwwC7szS8vPUIb-2" value="未命名图层" parent="oqYI3ofI4eNtObddCJwc-0" />
