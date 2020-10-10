@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-10T03:30:31.535Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="NpDjMS1hXgR0HM-KN4-R" version="13.7.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-10-10T09:31:34.948Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="V4e6aKAJVcQlzcul6Nim" version="13.7.9" type="github" pages="2">
   <diagram id="fNKAHcspk09XAcjnbf-g" name="工单管理">
     <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -359,7 +359,7 @@
           <mxGeometry x="97" y="3720" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NJt9awCA1hXl86DGp1sZ-227" value="工单导出" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
-          <mxGeometry x="391.5" y="4100" width="77" height="30" as="geometry" />
+          <mxGeometry x="491.5" y="4040" width="77" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NJt9awCA1hXl86DGp1sZ-228" value="确定" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
           <mxGeometry x="1263" y="4530" width="77" height="30" as="geometry" />
@@ -367,13 +367,14 @@
         <mxCell id="wAlXlOLfTSp1UA3SI0B5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=1;dashed=1;dashPattern=1 1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="NJt9awCA1hXl86DGp1sZ-11" source="NJt9awCA1hXl86DGp1sZ-226" target="wAlXlOLfTSp1UA3SI0B5-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="30" y="4260" />
+              <mxPoint x="30" y="4210" />
               <mxPoint x="30" y="4825" />
+              <mxPoint x="94" y="4825" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="NJt9awCA1hXl86DGp1sZ-226" value="&lt;table cellpadding=&quot;4&quot; cellspacing=&quot;0&quot; border=&quot;1&quot; style=&quot;font-size: 1em ; width: 100% ; height: 100%&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;工单编号&lt;/th&gt;&lt;td&gt;&lt;b&gt;产品线&lt;/b&gt;&lt;/td&gt;&lt;th&gt;优先级&lt;/th&gt;&lt;td&gt;&lt;b&gt;数量&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;状态进度&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;实施单位&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;备注&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;xxx111&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;高&lt;/td&gt;&lt;td&gt;300&lt;/td&gt;&lt;td&gt;提单&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;u&gt;维修记录查询&lt;/u&gt; &lt;u&gt;维修记录导出&lt;/u&gt;&amp;nbsp;&lt;u&gt;维修模板导出&lt;/u&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;xxx222&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;中&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;u&gt;详情&lt;/u&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;xxx333&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;xxx444&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; " style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=none;fontColor=#000000;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
-          <mxGeometry x="115.5" y="4150" width="549" height="220" as="geometry" />
+          <mxGeometry x="124" y="4100" width="549" height="220" as="geometry" />
         </mxCell>
         <mxCell id="NJt9awCA1hXl86DGp1sZ-231" value="进度状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
           <mxGeometry x="128.75" y="3885" width="70" height="20" as="geometry" />
@@ -406,7 +407,7 @@
           <mxGeometry x="790" y="3787.5" width="500.25" height="282.5" as="geometry" />
         </mxCell>
         <mxCell id="bfiqpeBWppTH1w2yS7td-5" value="本月进度导出" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
-          <mxGeometry x="473" y="4100" width="97" height="30" as="geometry" />
+          <mxGeometry x="573" y="4040" width="97" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bfiqpeBWppTH1w2yS7td-7" value="要求完工时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
           <mxGeometry x="122.25" y="3930" width="100" height="20" as="geometry" />
@@ -1260,16 +1261,16 @@
         <mxCell id="xpk6q5MUWkHOSpNfBMT7-8" value="日志列表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;fontSize=18;fontStyle=1" parent="oqYI3ofI4eNtObddCJwc-1" vertex="1">
           <mxGeometry x="209.5" y="-320" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="bdhb-XvGNwRSapVDZ48q-1" value="返回" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeColor=#000000;fillColor=#FFFFFF;fontSize=16;align=center;arcSize=12;" vertex="1" parent="oqYI3ofI4eNtObddCJwc-1">
+        <mxCell id="bdhb-XvGNwRSapVDZ48q-1" value="返回" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeColor=#000000;fillColor=#FFFFFF;fontSize=16;align=center;arcSize=12;" parent="oqYI3ofI4eNtObddCJwc-1" vertex="1">
           <mxGeometry x="780" y="420" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bdhb-XvGNwRSapVDZ48q-3" value="&lt;b&gt;产品线信息&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;fontSize=16;" vertex="1" parent="oqYI3ofI4eNtObddCJwc-1">
+        <mxCell id="bdhb-XvGNwRSapVDZ48q-3" value="&lt;b&gt;产品线信息&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;fontSize=16;" parent="oqYI3ofI4eNtObddCJwc-1" vertex="1">
           <mxGeometry x="848.5" y="425" width="103" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="bdhb-XvGNwRSapVDZ48q-4" value="返回" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeColor=#000000;fillColor=#FFFFFF;fontSize=16;align=center;arcSize=12;" vertex="1" parent="oqYI3ofI4eNtObddCJwc-1">
+        <mxCell id="bdhb-XvGNwRSapVDZ48q-4" value="返回" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeColor=#000000;fillColor=#FFFFFF;fontSize=16;align=center;arcSize=12;" parent="oqYI3ofI4eNtObddCJwc-1" vertex="1">
           <mxGeometry x="785" y="755" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bdhb-XvGNwRSapVDZ48q-5" value="&lt;b&gt;产品型号&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;fontSize=16;" vertex="1" parent="oqYI3ofI4eNtObddCJwc-1">
+        <mxCell id="bdhb-XvGNwRSapVDZ48q-5" value="&lt;b&gt;产品型号&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;fontSize=16;" parent="oqYI3ofI4eNtObddCJwc-1" vertex="1">
           <mxGeometry x="848.5" y="760" width="103" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZW8fM5jwwC7szS8vPUIb-1" value="备注" parent="oqYI3ofI4eNtObddCJwc-0" />
