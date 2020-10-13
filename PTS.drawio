@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-13T09:45:52.353Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="s_QGObXXVulzQMM6RsBx" version="13.7.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-10-13T09:46:02.224Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="JUAeiKk1bxjo-OsSH7av" version="13.7.9" type="github" pages="2">
   <diagram id="fNKAHcspk09XAcjnbf-g" name="工单管理">
     <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -927,6 +927,12 @@
         </mxCell>
         <mxCell id="5AynFkteKn2nBOlKHxSy-8" value="清空" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="NJt9awCA1hXl86DGp1sZ-11">
           <mxGeometry x="1263" y="3790" width="77" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5AynFkteKn2nBOlKHxSy-9" value="搜索" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="NJt9awCA1hXl86DGp1sZ-11">
+          <mxGeometry x="1240" y="3434.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5AynFkteKn2nBOlKHxSy-10" value="清空" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="NJt9awCA1hXl86DGp1sZ-11">
+          <mxGeometry x="1150" y="3434.5" width="77" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NJt9awCA1hXl86DGp1sZ-17" value="备注" parent="0" />
         <mxCell id="NJt9awCA1hXl86DGp1sZ-111" value="审核视图可编辑区域" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;fontSize=16;width=31;height=193;" parent="NJt9awCA1hXl86DGp1sZ-17" vertex="1">
