@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-14T01:19:36.165Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="vAlZtEwb18Y4JquZHdWo" version="13.7.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-10-14T01:19:47.115Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="nqY1GFvWpEqkb4xSXThi" version="13.7.9" type="github" pages="2">
   <diagram id="fNKAHcspk09XAcjnbf-g" name="工单管理">
     <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -947,7 +947,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zVyP3AO0CRnJbui5Jwsh-1" value="status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="NJt9awCA1hXl86DGp1sZ-11">
-          <mxGeometry x="295" y="215" width="50" height="20" as="geometry" />
+          <mxGeometry x="286.25" y="215" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zVyP3AO0CRnJbui5Jwsh-2" value="审核人" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="NJt9awCA1hXl86DGp1sZ-11">
           <mxGeometry x="153" y="1180" width="60" height="20" as="geometry" />
