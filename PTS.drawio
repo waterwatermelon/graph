@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-16T02:21:55.683Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="khOarPs98bqH90lKq3tH" version="13.8.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-10-16T02:22:39.170Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="GeKi4jqsGKE_Dshm5oAh" version="13.8.0" type="github" pages="2">
   <diagram id="fNKAHcspk09XAcjnbf-g" name="工单管理">
     <mxGraphModel dx="1035" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -320,7 +320,7 @@
           <mxGeometry x="464.5" y="3432" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NJt9awCA1hXl86DGp1sZ-215" value="Number" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#666666;fontColor=#333333;fillColor=#DBDBDB;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
-          <mxGeometry x="220.5" y="3360" width="64.5" height="25" as="geometry" />
+          <mxGeometry x="220.5" y="3360" width="239.5" height="25" as="geometry" />
         </mxCell>
         <mxCell id="NJt9awCA1hXl86DGp1sZ-216" value="Number" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#666666;fontColor=#333333;fillColor=#DBDBDB;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
           <mxGeometry x="527" y="3427" width="64.5" height="25" as="geometry" />
@@ -330,9 +330,6 @@
         </mxCell>
         <mxCell id="NJt9awCA1hXl86DGp1sZ-219" value="Select" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
           <mxGeometry x="218.5" y="3482" width="63.5" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="NJt9awCA1hXl86DGp1sZ-220" value="备注：固定单价&amp;amp;实时工时 二选一" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
-          <mxGeometry x="319.75" y="3320" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NJt9awCA1hXl86DGp1sZ-221" value="计价金额" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
           <mxGeometry x="138" y="3322.5" width="70" height="20" as="geometry" />
@@ -945,6 +942,12 @@
         </mxCell>
         <mxCell id="zVyP3AO0CRnJbui5Jwsh-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="NJt9awCA1hXl86DGp1sZ-11" vertex="1">
           <mxGeometry x="100" y="630" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VTRRyL2MOenEH54snoDL-0" value="Number" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="NJt9awCA1hXl86DGp1sZ-11">
+          <mxGeometry x="398" y="3320" width="63.5" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="VTRRyL2MOenEH54snoDL-1" value="总数量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="NJt9awCA1hXl86DGp1sZ-11">
+          <mxGeometry x="319" y="3322.5" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NJt9awCA1hXl86DGp1sZ-17" value="备注" parent="0" visible="0" />
         <mxCell id="NJt9awCA1hXl86DGp1sZ-111" value="审核视图可编辑区域" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;fontSize=16;width=31;height=193;" parent="NJt9awCA1hXl86DGp1sZ-17" vertex="1">
