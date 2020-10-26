@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2020-10-26T06:44:49.330Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" version="13.8.1" etag="kQf3pYgknGU5HXLQKiTy" type="github"><diagram id="UMa7nYm3q3nScmQRocwT">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-26T07:05:58.533Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="keSINeXN01zwXLfNTp_M" version="13.8.1" type="github">
+  <diagram id="UMa7nYm3q3nScmQRocwT" name="第 1 页">
+    <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kwyds3jAmrTVfxzxvcwC-1" value="HELLO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="140" y="120" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kwyds3jAmrTVfxzxvcwC-3" value="controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="150" y="170" width="100" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="kwyds3jAmrTVfxzxvcwC-4" value="switch" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="414" y="170" width="100" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="kwyds3jAmrTVfxzxvcwC-9" value="hello" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="410" y="260" as="sourcePoint" />
+            <mxPoint x="260" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kwyds3jAmrTVfxzxvcwC-10" value="hello:&lt;br&gt;transaction_id:b&lt;br&gt;&lt;br&gt;features_request:&lt;br&gt;transaction_id:a" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="264" y="400" as="sourcePoint" />
+            <mxPoint x="414" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kwyds3jAmrTVfxzxvcwC-11" value="features_response:&lt;br&gt;transaction_id:a&lt;br&gt;capabilities: 0x0000004f" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="414" y="490" as="sourcePoint" />
+            <mxPoint x="264" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
