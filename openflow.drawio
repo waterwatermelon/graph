@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-03T08:07:30.239Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="EAKqlQ93B6H61oCId2Br" version="13.8.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-03T08:09:44.938Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="Yq79cvo_ijyzH-33PCZe" version="13.8.2" type="github" pages="2">
   <diagram id="h9tyXJU4BfLx0NENEYcY" name="template">
     <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,14 +24,29 @@
         <mxCell id="gsf-0igHdWIBSqOD4liH-0" value="控制器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
           <mxGeometry x="200" y="210" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mibbM8EnvjrsskPA_bQV-0" value="控制器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
-          <mxGeometry x="200" y="360" width="280" height="140" as="geometry" />
+        <mxCell id="mibbM8EnvjrsskPA_bQV-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
+          <mxGeometry x="210" y="360" width="290" height="240" as="geometry" />
         </mxCell>
         <mxCell id="sbCMbYx_LPPktSVNjP---0" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;" edge="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="350" as="sourcePoint" />
             <mxPoint x="250" y="270" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="sbCMbYx_LPPktSVNjP---1" value="OpenFlow信道" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
+          <mxGeometry x="220" y="370" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sbCMbYx_LPPktSVNjP---2" value="Flow Table&lt;br&gt;流表" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
+          <mxGeometry x="220" y="490" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sbCMbYx_LPPktSVNjP---3" value="Group&lt;br&gt;Table&lt;br&gt;组表" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
+          <mxGeometry x="340" y="370" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sbCMbYx_LPPktSVNjP---4" value="Meter&lt;br&gt;Table&lt;br&gt;速度表" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
+          <mxGeometry x="421" y="370" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sbCMbYx_LPPktSVNjP---5" value="Flow Table&lt;br&gt;流表" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
+          <mxGeometry x="421" y="490" width="70" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
