@@ -1,11 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2020-11-03T08:06:26.504Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="KhFgfWmETAuMUnT-DD2v" version="13.8.2" type="github" pages="2">
-  <diagram id="h9tyXJU4BfLx0NENEYcY" name="第 1 页">
+<mxfile host="app.diagrams.net" modified="2020-11-03T08:07:30.239Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="EAKqlQ93B6H61oCId2Br" version="13.8.2" type="github" pages="2">
+  <diagram id="h9tyXJU4BfLx0NENEYcY" name="template">
     <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7rlH-JLcy3Hg_WToKcSe-3" value="控制器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="180" y="140" width="80" height="40" as="geometry" />
+          <mxGeometry x="160" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cy8i1yOanH7raOSZiTp8-1" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="320" as="sourcePoint" />
+            <mxPoint x="160" y="210" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -16,7 +22,16 @@
         <mxCell id="XB-mMEFGtg9YxqX9Aaqe-0" />
         <mxCell id="XB-mMEFGtg9YxqX9Aaqe-1" parent="XB-mMEFGtg9YxqX9Aaqe-0" />
         <mxCell id="gsf-0igHdWIBSqOD4liH-0" value="控制器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
-          <mxGeometry x="180" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="210" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mibbM8EnvjrsskPA_bQV-0" value="控制器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
+          <mxGeometry x="200" y="360" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sbCMbYx_LPPktSVNjP---0" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;" edge="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="350" as="sourcePoint" />
+            <mxPoint x="250" y="270" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
