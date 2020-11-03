@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-03T08:10:15.182Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="Aj-1MYEIcXgxuOwD_NZG" version="13.8.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-03T08:14:26.722Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="94-EAumQQWdNNC6e_QhG" version="13.8.2" type="github" pages="2">
   <diagram id="h9tyXJU4BfLx0NENEYcY" name="template">
     <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,6 +13,21 @@
             <mxPoint x="160" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="O_sqRteVsTW5ZRP_WPp1-1" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="450" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_sqRteVsTW5ZRP_WPp1-2" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="280" as="sourcePoint" />
+            <mxPoint x="570" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O_sqRteVsTW5ZRP_WPp1-3" value="Pipeline&lt;br&gt;流水线" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="468" y="269" width="40" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -21,7 +36,7 @@
       <root>
         <mxCell id="XB-mMEFGtg9YxqX9Aaqe-0" />
         <mxCell id="XB-mMEFGtg9YxqX9Aaqe-1" parent="XB-mMEFGtg9YxqX9Aaqe-0" />
-        <mxCell id="gsf-0igHdWIBSqOD4liH-0" value="控制器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
+        <mxCell id="gsf-0igHdWIBSqOD4liH-0" value="Controller&lt;br&gt;控制器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
           <mxGeometry x="200" y="210" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mibbM8EnvjrsskPA_bQV-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
@@ -47,6 +62,27 @@
         </mxCell>
         <mxCell id="sbCMbYx_LPPktSVNjP---5" value="Flow Table&lt;br&gt;流表" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
           <mxGeometry x="421" y="490" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="crajoxIsuaH9pqFbOvSO-1" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="376" y="538" as="sourcePoint" />
+            <mxPoint x="421" y="538" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="crajoxIsuaH9pqFbOvSO-2" value="Pipeline&lt;br&gt;流水线" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
+          <mxGeometry x="343" y="565" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="crajoxIsuaH9pqFbOvSO-3" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
+          <mxGeometry x="340" y="530" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="crajoxIsuaH9pqFbOvSO-6" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="538" as="sourcePoint" />
+            <mxPoint x="340" y="538" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="crajoxIsuaH9pqFbOvSO-7" value="OpenFlow 协议" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fillColor=#ffffff;" vertex="1" parent="XB-mMEFGtg9YxqX9Aaqe-1">
+          <mxGeometry x="200" y="300" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
