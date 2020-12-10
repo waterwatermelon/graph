@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-10T07:26:38.092Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="OhHOccyo37oo7N9pLoLw" version="13.9.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-10T08:37:00.403Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="Jghd9cfq-r1g_PevGw8t" version="13.9.2" type="github" pages="2">
   <diagram id="UMa7nYm3q3nScmQRocwT" name="第 1 页">
     <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zy72GBQIXiebMeK4XFMc" name="OpenFlow">
-    <mxGraphModel dx="493" dy="283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="591" dy="339" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Mp9M8j4iOaB7za8GDRAm-0" />
         <mxCell id="Mp9M8j4iOaB7za8GDRAm-1" parent="Mp9M8j4iOaB7za8GDRAm-0" />
@@ -154,11 +154,11 @@
         <mxCell id="Mp9M8j4iOaB7za8GDRAm-42" value="③" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="Mp9M8j4iOaB7za8GDRAm-1">
           <mxGeometry x="450" y="420" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Mp9M8j4iOaB7za8GDRAm-43" value="① 找出最高优先级的流表条目&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;② 执行流表的指令&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;③ 发送匹配的数据和动作集合到下一个表&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="Mp9M8j4iOaB7za8GDRAm-1">
-          <mxGeometry x="520" y="325" width="270" height="120" as="geometry" />
+        <mxCell id="Mp9M8j4iOaB7za8GDRAm-43" value="① 找出最高优先级的流表条目&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;② 执行流表的指令&lt;/div&gt;&lt;div&gt;1.（应用动作指令）修改数据包和更新匹配域&lt;/div&gt;&lt;div&gt;2.（清楚动作或写动作指令）更新指令集合&lt;/div&gt;&lt;div&gt;3.更新元数据&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;③ 发送匹配的数据和动作集合到下一个表&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="Mp9M8j4iOaB7za8GDRAm-1">
+          <mxGeometry x="530" y="460" width="290" height="160" as="geometry" />
         </mxCell>
         <mxCell id="Mp9M8j4iOaB7za8GDRAm-44" value="① Find highest priority match flow entry&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;② Apply instructions:&lt;/div&gt;&lt;div&gt;1.modify packet and update match field (apply action instruction)&lt;/div&gt;&lt;div&gt;2.update action set (clear actions or write actions instructions)&lt;/div&gt;&lt;div&gt;3.update metadata&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;③ Send match data and action set to next table&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="Mp9M8j4iOaB7za8GDRAm-1">
-          <mxGeometry x="300" y="445" width="410" height="160" as="geometry" />
+          <mxGeometry x="530" y="320" width="410" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
