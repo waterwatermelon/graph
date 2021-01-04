@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T03:22:39.978Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="r8mMJ-Ny4RvaKHGNuU_1" version="14.1.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-01-04T10:00:28.791Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="9m--eOhXpcvnR6ZY7ttQ" version="14.1.4" type="github" pages="7">
   <diagram id="UMa7nYm3q3nScmQRocwT" name="第 1 页">
     <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,16 +19,18 @@
             <mxPoint x="260" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kwyds3jAmrTVfxzxvcwC-10" value="hello:&lt;br&gt;transaction_id:b&lt;br&gt;&lt;br&gt;features_request:&lt;br&gt;transaction_id:a" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=16;" parent="1" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
+        <mxCell id="kwyds3jAmrTVfxzxvcwC-10" value="1.hello:&lt;br&gt;transaction_id:b&lt;br&gt;&lt;br&gt;2.features_request:&lt;br&gt;transaction_id:a" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=16;align=left;" parent="1" edge="1">
+          <mxGeometry x="-1" width="80" relative="1" as="geometry">
             <mxPoint x="264" y="400" as="sourcePoint" />
             <mxPoint x="414" y="400" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kwyds3jAmrTVfxzxvcwC-11" value="features_response:&lt;br&gt;transaction_id:a&lt;br&gt;capabilities: 0x0000004f" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=16;" parent="1" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
+        <mxCell id="kwyds3jAmrTVfxzxvcwC-11" value="features_response:&lt;br&gt;transaction_id:a&lt;br&gt;capabilities: 0x0000004f" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=16;align=left;" parent="1" edge="1">
+          <mxGeometry x="1" y="4" width="80" relative="1" as="geometry">
             <mxPoint x="414" y="490" as="sourcePoint" />
             <mxPoint x="264" y="490" as="targetPoint" />
+            <mxPoint x="-4" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
