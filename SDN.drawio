@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-04T10:00:28.791Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="9m--eOhXpcvnR6ZY7ttQ" version="14.1.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-01-04T10:03:36.718Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="lA3vJhLpDmlrUBcIuBDE" version="14.1.4" type="github" pages="8">
   <diagram id="UMa7nYm3q3nScmQRocwT" name="第 1 页">
     <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -413,6 +413,26 @@
         </mxCell>
         <mxCell id="cEtUZl3WPjvPihAtGsq3-23" value="&lt;span style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;h2s1&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;00:00:00:00:00:04&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;10.0.0.4&amp;nbsp;&lt;/span&gt;" style="shape=mxgraph.cisco.computers_and_peripherals.ibm_mini_as400;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;aspect=fixed;" vertex="1" parent="UJmPZPItcT52eHb7d8yb-1">
           <mxGeometry x="570" y="202" width="38" height="57" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HI-B6QpWVLMeGQje8RX7" name="Java-String">
+    <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="_MXsMLJX2sGnuNUMvdqr-0" />
+        <mxCell id="_MXsMLJX2sGnuNUMvdqr-1" parent="_MXsMLJX2sGnuNUMvdqr-0" />
+        <mxCell id="_MXsMLJX2sGnuNUMvdqr-2" value="«interface»&lt;br&gt;&lt;b&gt;Serialable&lt;/b&gt;" style="html=1;" vertex="1" parent="_MXsMLJX2sGnuNUMvdqr-1">
+          <mxGeometry x="260" y="150" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_MXsMLJX2sGnuNUMvdqr-9" value="«interface»&lt;br&gt;&lt;b&gt;Comparable&lt;/b&gt;" style="html=1;" vertex="1" parent="_MXsMLJX2sGnuNUMvdqr-1">
+          <mxGeometry x="414" y="150" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_MXsMLJX2sGnuNUMvdqr-10" value="«interface»&lt;br&gt;&lt;b&gt;CharSequence&lt;/b&gt;" style="html=1;" vertex="1" parent="_MXsMLJX2sGnuNUMvdqr-1">
+          <mxGeometry x="560" y="150" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_MXsMLJX2sGnuNUMvdqr-19" value="String" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="_MXsMLJX2sGnuNUMvdqr-1">
+          <mxGeometry x="170" y="400" width="140" height="52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
