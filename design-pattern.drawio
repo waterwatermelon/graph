@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T10:13:32.800Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="rK7-S_ZIsFFjMwVQo2U1" version="14.2.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-14T10:14:42.655Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="sQHkOB8fMw18qKlZV2jB" version="14.2.2" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="sample">
     <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -322,7 +322,10 @@
             <mxRectangle x="140" y="240" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_cLvB8XtA5sMq4_kdkNR-0" value="Observer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" collapsed="1" parent="61BE_yi_09La4o9Kb2sg-1">
+        <mxCell id="4kk3oKSSUcuhon_vHk4d-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;dashed=1;endArrow=open;endFill=0;endSize=12;fontSize=16;" edge="1" parent="61BE_yi_09La4o9Kb2sg-1" source="_cLvB8XtA5sMq4_kdkNR-0" target="Ts47jcZ-5j_BqG5MTmqs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_cLvB8XtA5sMq4_kdkNR-0" value="Observee" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" collapsed="1" parent="61BE_yi_09La4o9Kb2sg-1">
           <mxGeometry x="170" y="746" width="160" height="26" as="geometry">
             <mxRectangle x="140" y="240" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
