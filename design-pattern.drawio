@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T10:45:35.997Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="9FCP0x3qB9aOVG61wwVi" version="14.2.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-14T10:46:17.221Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="I51j4QdC6bURTl29Rvwj" version="14.2.2" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="sample">
     <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -184,7 +184,7 @@
         <mxCell id="OlGraEN4qPypIjydsPcH-21" value="静态工厂模式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="j5BDCcemCwQbVGDyyuhf-1">
           <mxGeometry x="115" y="350" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="OKE9yblYPe_L99p52qCf-0" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;a instanceof interfacaA&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;a instanceof A&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="j5BDCcemCwQbVGDyyuhf-1">
+        <mxCell id="OKE9yblYPe_L99p52qCf-0" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;a instanceof interfaceA&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;a instanceof A&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="j5BDCcemCwQbVGDyyuhf-1">
           <mxGeometry x="320" y="90" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
