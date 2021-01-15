@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-08T08:48:09.115Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="tYqhM9NZkN-sCQSii4UX" version="14.1.8" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-01-15T00:56:25.995Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="1QAo1DpBHeOkcN9BnaPc" version="14.2.2" type="github" pages="9">
   <diagram id="UMa7nYm3q3nScmQRocwT" name="第 1 页">
     <mxGraphModel dx="1035" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -334,14 +334,14 @@
             <mxPoint x="310" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IAci8E1ubqnGGDfwKtQO-0" value="Controller to Switch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="XIEVuwWsXh1EqFdUXq7O-1" vertex="1">
+        <mxCell id="IAci8E1ubqnGGDfwKtQO-0" value="Controller to Switch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#006191;" parent="XIEVuwWsXh1EqFdUXq7O-1" vertex="1">
           <mxGeometry x="120" y="230" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IAci8E1ubqnGGDfwKtQO-1" value="Asyncious" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="XIEVuwWsXh1EqFdUXq7O-1" vertex="1">
-          <mxGeometry x="145" y="450" width="70" height="20" as="geometry" />
+        <mxCell id="IAci8E1ubqnGGDfwKtQO-1" value="Asynchronous" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#006191;" parent="XIEVuwWsXh1EqFdUXq7O-1" vertex="1">
+          <mxGeometry x="120" y="450" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IAci8E1ubqnGGDfwKtQO-2" value="Symmetric" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="XIEVuwWsXh1EqFdUXq7O-1" vertex="1">
-          <mxGeometry x="145" y="680" width="70" height="20" as="geometry" />
+        <mxCell id="IAci8E1ubqnGGDfwKtQO-2" value="&lt;font color=&quot;#006191&quot;&gt;Symmetric&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="XIEVuwWsXh1EqFdUXq7O-1" vertex="1">
+          <mxGeometry x="120" y="680" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
