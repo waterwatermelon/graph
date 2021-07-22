@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T01:29:01.334Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="7EgsCClihWT_aFv5oSvY" version="14.9.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-07-22T01:31:50.768Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="tr8GB3SfVCzv-uG7iDyo" version="14.9.1" type="github" pages="8">
   <diagram id="UMa7nYm3q3nScmQRocwT" name="openflow-hello">
     <mxGraphModel dx="1035" dy="594" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -396,7 +396,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pUamGA9gg9TFdKBX2e6x" name="openvswitch-vlan">
-    <mxGraphModel dx="591" dy="339" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1035" dy="594" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="UJmPZPItcT52eHb7d8yb-0" />
         <mxCell id="UJmPZPItcT52eHb7d8yb-1" parent="UJmPZPItcT52eHb7d8yb-0" />
@@ -405,7 +405,7 @@
         </mxCell>
         <mxCell id="cEtUZl3WPjvPihAtGsq3-26" value="&lt;font color=&quot;#006191&quot;&gt;1:vlan 1&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=none;labelBorderColor=none;" parent="cEtUZl3WPjvPihAtGsq3-7" vertex="1" connectable="0">
           <mxGeometry x="0.8014" y="-1" relative="1" as="geometry">
-            <mxPoint x="-12.23" y="-8.4" as="offset" />
+            <mxPoint x="-16" y="-24" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cEtUZl3WPjvPihAtGsq3-0" value="&lt;font color=&quot;#006191&quot; style=&quot;font-size: 14px&quot;&gt;h1s1&lt;br&gt;00:00:00:00:00:01&lt;br&gt;10.0.0.1&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="shape=mxgraph.cisco.computers_and_peripherals.ibm_mini_as400;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;aspect=fixed;labelBackgroundColor=none;labelBorderColor=none;" parent="UJmPZPItcT52eHb7d8yb-1" vertex="1">
@@ -432,15 +432,15 @@
         </mxCell>
         <mxCell id="cEtUZl3WPjvPihAtGsq3-31" value="1:vlan 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#006191;labelBackgroundColor=none;labelBorderColor=none;" parent="cEtUZl3WPjvPihAtGsq3-24" vertex="1" connectable="0">
           <mxGeometry x="-0.7133" relative="1" as="geometry">
-            <mxPoint x="12.06" y="-0.5" as="offset" />
+            <mxPoint x="34" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cEtUZl3WPjvPihAtGsq3-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.89;exitY=0.93;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;strokeColor=#006191;fontSize=14;labelBackgroundColor=none;labelBorderColor=none;" parent="UJmPZPItcT52eHb7d8yb-1" source="cEtUZl3WPjvPihAtGsq3-5" target="cEtUZl3WPjvPihAtGsq3-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cEtUZl3WPjvPihAtGsq3-32" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#006191;labelBackgroundColor=none;labelBorderColor=none;" parent="cEtUZl3WPjvPihAtGsq3-25" vertex="1" connectable="0">
+        <mxCell id="cEtUZl3WPjvPihAtGsq3-32" value="2:vlan1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#006191;labelBackgroundColor=none;labelBorderColor=none;" parent="cEtUZl3WPjvPihAtGsq3-25" vertex="1" connectable="0">
           <mxGeometry x="-0.5823" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="14" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cEtUZl3WPjvPihAtGsq3-5" value="&lt;font color=&quot;#006191&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;s2&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="shape=mxgraph.cisco.misc.7500ars_(7513);html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;direction=east;labelBackgroundColor=none;labelBorderColor=none;" parent="UJmPZPItcT52eHb7d8yb-1" vertex="1">
@@ -449,26 +449,26 @@
         <mxCell id="cEtUZl3WPjvPihAtGsq3-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;strokeColor=#006191;fontSize=14;labelBackgroundColor=none;labelBorderColor=none;" parent="UJmPZPItcT52eHb7d8yb-1" source="cEtUZl3WPjvPihAtGsq3-20" target="cEtUZl3WPjvPihAtGsq3-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cEtUZl3WPjvPihAtGsq3-28" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#006191;labelBackgroundColor=none;labelBorderColor=none;" parent="cEtUZl3WPjvPihAtGsq3-21" vertex="1" connectable="0">
+        <mxCell id="cEtUZl3WPjvPihAtGsq3-28" value="2:vlan1&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#006191;labelBackgroundColor=none;labelBorderColor=none;" parent="cEtUZl3WPjvPihAtGsq3-21" vertex="1" connectable="0">
           <mxGeometry x="0.7719" relative="1" as="geometry">
-            <mxPoint y="-1" as="offset" />
+            <mxPoint x="-14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cEtUZl3WPjvPihAtGsq3-20" value="&lt;span style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;h2s1&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;00:00:00:00:00:03&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;10.0.0.3&lt;/span&gt;" style="shape=mxgraph.cisco.computers_and_peripherals.ibm_mini_as400;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;aspect=fixed;labelBackgroundColor=none;labelBorderColor=none;" parent="UJmPZPItcT52eHb7d8yb-1" vertex="1">
           <mxGeometry x="114" y="170" width="38" height="57" as="geometry" />
         </mxCell>
         <mxCell id="cEtUZl3WPjvPihAtGsq3-22" value="&lt;span style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;h1s2&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;00:00:00:00:00:02&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;10.0.0.2&lt;/span&gt;" style="shape=mxgraph.cisco.computers_and_peripherals.ibm_mini_as400;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;aspect=fixed;labelBackgroundColor=none;labelBorderColor=none;" parent="UJmPZPItcT52eHb7d8yb-1" vertex="1">
-          <mxGeometry x="602" y="52" width="38" height="57" as="geometry" />
+          <mxGeometry x="626" y="54" width="38" height="57" as="geometry" />
         </mxCell>
         <mxCell id="cEtUZl3WPjvPihAtGsq3-23" value="&lt;span style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;h2s2&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;00:00:00:00:00:04&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;10.0.0.4&amp;nbsp;&lt;/span&gt;" style="shape=mxgraph.cisco.computers_and_peripherals.ibm_mini_as400;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;aspect=fixed;labelBackgroundColor=none;labelBorderColor=none;" parent="UJmPZPItcT52eHb7d8yb-1" vertex="1">
-          <mxGeometry x="619" y="182" width="38" height="57" as="geometry" />
+          <mxGeometry x="619" y="170" width="38" height="57" as="geometry" />
         </mxCell>
         <mxCell id="YdBavZ7A9gYMqprqD2RK-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#006191;" edge="1" parent="UJmPZPItcT52eHb7d8yb-1" source="YdBavZ7A9gYMqprqD2RK-0" target="cEtUZl3WPjvPihAtGsq3-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YdBavZ7A9gYMqprqD2RK-6" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#006191;" vertex="1" connectable="0" parent="YdBavZ7A9gYMqprqD2RK-1">
+        <mxCell id="YdBavZ7A9gYMqprqD2RK-6" value="3:vlan2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#006191;" vertex="1" connectable="0" parent="YdBavZ7A9gYMqprqD2RK-1">
           <mxGeometry x="0.581" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-18" y="12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YdBavZ7A9gYMqprqD2RK-0" value="&lt;span style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;h3s1&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;00:00:00:00:00:05&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;10.0.0.2&lt;/span&gt;" style="shape=mxgraph.cisco.computers_and_peripherals.ibm_mini_as400;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;aspect=fixed;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="UJmPZPItcT52eHb7d8yb-1">
@@ -477,13 +477,13 @@
         <mxCell id="YdBavZ7A9gYMqprqD2RK-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=#001933;endArrow=none;endFill=0;strokeColor=#006191;" edge="1" parent="UJmPZPItcT52eHb7d8yb-1" source="YdBavZ7A9gYMqprqD2RK-2" target="cEtUZl3WPjvPihAtGsq3-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YdBavZ7A9gYMqprqD2RK-8" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#006191;" vertex="1" connectable="0" parent="YdBavZ7A9gYMqprqD2RK-3">
+        <mxCell id="YdBavZ7A9gYMqprqD2RK-8" value="3:vlan2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#006191;" vertex="1" connectable="0" parent="YdBavZ7A9gYMqprqD2RK-3">
           <mxGeometry x="0.8123" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="45" y="31" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YdBavZ7A9gYMqprqD2RK-2" value="&lt;span style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;h3s1&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;00:00:00:00:00:06&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 97 , 145) ; font-size: 14px&quot;&gt;10.0.0.6&lt;/span&gt;" style="shape=mxgraph.cisco.computers_and_peripherals.ibm_mini_as400;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;aspect=fixed;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="UJmPZPItcT52eHb7d8yb-1">
-          <mxGeometry x="643" y="345" width="38" height="57" as="geometry" />
+          <mxGeometry x="619" y="299" width="38" height="57" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
