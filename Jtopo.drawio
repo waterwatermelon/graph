@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T07:24:13.157Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="Iwdygfa7zJjRu8HN7nG7" version="16.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-05T07:34:07.367Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="iwOEgVYTdJyqfHATyq7E" version="16.1.4" type="github">
   <diagram id="dJBsx4O1nZzHeu0fgfRI" name="第 1 页">
     <mxGraphModel dx="794" dy="594" grid="1" gridSize="30" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -78,6 +78,12 @@
         </mxCell>
         <mxCell id="z_XjH2AizJ-G1wBY0Lii-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Node&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ backgroundColor&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ backgroundAlpha&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ borderRadius&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ paint&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ paintText&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ paintBorder&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getTextPosition()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setImage&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ removerHandler&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ drawBackground&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="900" y="480" width="150" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="t4HWYBzLa3pP-0J2eb1T-1" value="stage的模式分为select,edit,normal.&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t4HWYBzLa3pP-0J2eb1T-2" value="&lt;font style=&quot;font-size: 16px&quot;&gt;stage的模式分为select,edit,normal.&lt;br&gt;select模式，可以框选元素，不能拖动画布&lt;br&gt;edit模式，可以拖动画布，不能框选，可以编辑元素&lt;br&gt;normal模式，可以拖动元素，不能编辑元素&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="630" width="270" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
