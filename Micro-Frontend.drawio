@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-30T08:01:19.103Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="bmOocCyzojt41xQgU4yA" version="19.0.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-30T08:02:42.519Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="ksvv1Yi33svUd5FS-wF3" version="19.0.3" type="github" pages="5">
   <diagram id="ziwd58BBXpggzG_KKJVm" name="qiankun-架构">
     <mxGraphModel dx="868" dy="495" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -224,13 +224,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W0DEECuF509UGXgLBGNw-4" value="微应用B" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;fontSize=14;fontColor=#000000;strokeColor=#457B9D;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="428" y="141" width="120" height="60" as="geometry" />
+          <mxGeometry x="548" y="141" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="W0DEECuF509UGXgLBGNw-8" value="监听" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=#A8DADC;" edge="1" parent="1" source="W0DEECuF509UGXgLBGNw-7" target="W0DEECuF509UGXgLBGNw-1">
+        <mxCell id="W0DEECuF509UGXgLBGNw-8" value="监听状态池变化" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=#A8DADC;" edge="1" parent="1" source="W0DEECuF509UGXgLBGNw-7" target="W0DEECuF509UGXgLBGNw-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W0DEECuF509UGXgLBGNw-7" value="&lt;span style=&quot;&quot;&gt;主应用&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;fontSize=14;fontColor=#000000;strokeColor=#457B9D;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="64" y="281" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="281" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W0DEECuF509UGXgLBGNw-17" value="② 触发状态池变化事件&lt;br&gt;（globalStateChange）" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=#A8DADC;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W0DEECuF509UGXgLBGNw-9" target="W0DEECuF509UGXgLBGNw-15">
           <mxGeometry relative="1" as="geometry">
@@ -249,13 +249,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="W0DEECuF509UGXgLBGNw-11" value="&lt;span style=&quot;&quot;&gt;微应用A&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;fontSize=14;fontColor=#000000;strokeColor=#457B9D;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="317" y="418" width="120" height="60" as="geometry" />
+          <mxGeometry x="326" y="416" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W0DEECuF509UGXgLBGNw-15" value="&lt;span style=&quot;&quot;&gt;主应用&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;fontSize=14;fontColor=#000000;strokeColor=#457B9D;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="42" y="561" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W0DEECuF509UGXgLBGNw-16" value="微应用B" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;fontSize=14;fontColor=#000000;strokeColor=#457B9D;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="574" y="418" width="120" height="60" as="geometry" />
+          <mxGeometry x="548" y="416" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
