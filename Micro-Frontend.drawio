@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-30T08:14:51.201Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="887DqZgmo0zY8p4lk8v3" version="19.0.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-30T08:18:51.728Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="T-n3YFJcgcgGy5-AUmm9" version="19.0.3" type="github" pages="5">
   <diagram id="ziwd58BBXpggzG_KKJVm" name="qiankun-架构">
     <mxGraphModel dx="1041" dy="594" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,7 +102,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="snq-WB_LcZ4wN2NO1m9A-34" value="服务端" style="swimlane;rounded=0;labelBackgroundColor=none;sketch=0;fontSize=14;strokeColor=#36393d;fillColor=#cce5ff;" parent="1" vertex="1">
-          <mxGeometry x="82.5" y="329" width="466.5" height="138" as="geometry" />
+          <mxGeometry x="86" y="318" width="466.5" height="138" as="geometry" />
         </mxCell>
         <mxCell id="snq-WB_LcZ4wN2NO1m9A-16" value="&lt;span style=&quot;font-size: 14px&quot;&gt;service-Y&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontFamily=Helvetica;fontSize=14;fontColor=default;align=center;strokeColor=none;fillColor=#cce5ff;" parent="snq-WB_LcZ4wN2NO1m9A-34" vertex="1">
           <mxGeometry x="179.5" y="64" width="80" height="50" as="geometry" />
