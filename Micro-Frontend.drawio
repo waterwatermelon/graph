@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-30T08:34:29.021Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="sut9KHtClDFS9ezL1yjO" version="19.0.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-30T08:37:24.898Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="WUz94wqbebX1gXWIFVaw" version="19.0.3" type="github" pages="5">
   <diagram id="ziwd58BBXpggzG_KKJVm" name="qiankun-架构">
     <mxGraphModel dx="1041" dy="594" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -228,7 +228,7 @@
         <mxCell id="J2csm4XSJxiVNItwQHAZ-8" value="拓扑管理&lt;br&gt;/main/topo" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;fontSize=14;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="JowGI-iRMusvGawlf7Ry-6" vertex="1">
           <mxGeometry x="112" width="115" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="J2csm4XSJxiVNItwQHAZ-19" value="系统管理&lt;br&gt;/main/system" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;fontSize=14;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="JowGI-iRMusvGawlf7Ry-6" vertex="1">
+        <mxCell id="J2csm4XSJxiVNItwQHAZ-19" value="其他" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;fontSize=14;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="JowGI-iRMusvGawlf7Ry-6" vertex="1">
           <mxGeometry x="225" width="112" height="48" as="geometry" />
         </mxCell>
         <mxCell id="JowGI-iRMusvGawlf7Ry-5" value="..." style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;fontSize=14;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="JowGI-iRMusvGawlf7Ry-6">
