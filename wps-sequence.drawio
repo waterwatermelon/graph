@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T01:53:31.104Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="QQBpU9UvFJjSSnms1cRE" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T01:54:52.427Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="8mdto-zQ00m2vZE8Xmk7" version="21.5.0" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="470" dy="349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="h-RYdDpg2fb4AHibMxCb-3" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=20;" vertex="1" parent="1">
+          <mxGeometry x="30" y="120" width="160" height="90" as="geometry" />
+        </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-1" value="svc_wlan" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="100" height="300" as="geometry" />
         </mxCell>
@@ -13,7 +16,7 @@
         <mxCell id="h-RYdDpg2fb4AHibMxCb-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-1">
           <mxGeometry x="51" y="120" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h-RYdDpg2fb4AHibMxCb-2" value="wlan_cc" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="h-RYdDpg2fb4AHibMxCb-1" parent="aM9ryv3xv72pqoxQDRHE-1">
+        <mxCell id="h-RYdDpg2fb4AHibMxCb-2" value="[1] wlan_cc" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="h-RYdDpg2fb4AHibMxCb-1" parent="aM9ryv3xv72pqoxQDRHE-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="56" y="100" as="sourcePoint" />
             <Array as="points">
@@ -36,19 +39,16 @@
             <mxPoint x="55" y="181.0344827586207" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h-RYdDpg2fb4AHibMxCb-3" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=20;" vertex="1" parent="1">
-          <mxGeometry x="30" y="120" width="150" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="h-RYdDpg2fb4AHibMxCb-4" value="&amp;nbsp;[2] tcapi_commit&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endFill=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="102" y="182.9655172413793" as="sourcePoint" />
             <mxPoint x="261" y="183" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h-RYdDpg2fb4AHibMxCb-10" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;[4] event: EVT_WLAN_INTERNAL.EVT_WLAN_UPDATE&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endFill=0;startArrow=open;startFill=0;" edge="1" parent="1">
+        <mxCell id="h-RYdDpg2fb4AHibMxCb-10" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;[4] send event&lt;br&gt;&amp;nbsp;EVT_WLAN_INTERNAL.&lt;br&gt;EVT_WLAN_UPDATE&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endFill=0;startArrow=open;startFill=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="100" y="241.9955172413793" as="sourcePoint" />
-            <mxPoint x="259" y="242.03" as="targetPoint" />
+            <mxPoint x="100" y="279.9955172413793" as="sourcePoint" />
+            <mxPoint x="259" y="280.03" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
