@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T07:45:03.311Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Tyjk9fG9vBk2uRUrNSZe" version="21.7.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-11T08:04:13.504Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="TDqmLuuMqXQQzq8BnYhR" version="21.7.2" type="github" pages="3">
   <diagram name="sequence" id="wFGCldTrQh_1a03lcc_g">
     <mxGraphModel dx="1044" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -115,8 +115,11 @@
             <mxPoint x="1500" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="JTD1CBSB7yvX7XkZpm-Y-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JTD1CBSB7yvX7XkZpm-Y-12" target="JTD1CBSB7yvX7XkZpm-Y-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JTD1CBSB7yvX7XkZpm-Y-12" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;nlksock_handler&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="740" width="140" height="60" as="geometry" />
+          <mxGeometry x="1250" y="720" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JTD1CBSB7yvX7XkZpm-Y-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JTD1CBSB7yvX7XkZpm-Y-9" target="JTD1CBSB7yvX7XkZpm-Y-12">
           <mxGeometry relative="1" as="geometry">
@@ -129,8 +132,17 @@
             <mxPoint x="-1" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JTD1CBSB7yvX7XkZpm-Y-16" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="810" width="140" height="60" as="geometry" />
+        <mxCell id="JTD1CBSB7yvX7XkZpm-Y-16" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;PlugCtlCmdPrehandle&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="805" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JTD1CBSB7yvX7XkZpm-Y-18" value="命令预处理：从数据包读取所需的参数。并在表gPlugctlCmd中找到具体命令的处理函数。&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="920" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JTD1CBSB7yvX7XkZpm-Y-19" value="plugin-control.c" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="670" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JTD1CBSB7yvX7XkZpm-Y-20" value="plugin-handle.c" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="700" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
