@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T02:56:34.089Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="6ayief3WPBkHkdfPKj6U" version="21.7.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-11T03:08:55.139Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="18Vz26B2TfRiN6c7P-Xd" version="21.7.2" type="github" pages="3">
   <diagram name="sequence" id="wFGCldTrQh_1a03lcc_g">
     <mxGraphModel dx="1044" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,14 +34,11 @@
         <mxCell id="JE6NSwY4tuIdZxAV2fhx-55" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;阶段2 ： 接收平台的命令 &amp;amp; 数据传输&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="160" y="790" width="320" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="pDXarYqikIfS1b3GncJh-9" value="device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="pDXarYqikIfS1b3GncJh-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pDXarYqikIfS1b3GncJh-12" target="pDXarYqikIfS1b3GncJh-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pDXarYqikIfS1b3GncJh-12" value="plugin_start()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pDXarYqikIfS1b3GncJh-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="pDXarYqikIfS1b3GncJh-13" target="pDXarYqikIfS1b3GncJh-14">
           <mxGeometry relative="1" as="geometry" />
@@ -52,28 +49,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pDXarYqikIfS1b3GncJh-13" value="trans_request()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="555" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="515" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pDXarYqikIfS1b3GncJh-14" value="trans_sender()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="685" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="pDXarYqikIfS1b3GncJh-20" value="device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="830" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="645" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pDXarYqikIfS1b3GncJh-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="pDXarYqikIfS1b3GncJh-27" target="pDXarYqikIfS1b3GncJh-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pDXarYqikIfS1b3GncJh-27" value="trans_receiver()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="670" width="120" height="60" as="geometry" />
+          <mxGeometry x="900" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pDXarYqikIfS1b3GncJh-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pDXarYqikIfS1b3GncJh-30" target="pDXarYqikIfS1b3GncJh-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pDXarYqikIfS1b3GncJh-30" value="plugin_cb()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="770" width="120" height="60" as="geometry" />
+          <mxGeometry x="900" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pDXarYqikIfS1b3GncJh-31" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;plugin_cb_handle()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="865" width="120" height="60" as="geometry" />
+          <mxGeometry x="900" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pDXarYqikIfS1b3GncJh-33" value="设备发送数据包流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="320" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDXarYqikIfS1b3GncJh-34" value="设备接收数据包流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="320" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
