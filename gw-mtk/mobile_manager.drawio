@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T07:37:28.082Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="WJmHjgRJsArH9GoCDF3o" version="21.7.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-11T07:39:12.660Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="YZlUC77tq4x53vTF0OCK" version="21.7.2" type="github" pages="3">
   <diagram name="sequence" id="wFGCldTrQh_1a03lcc_g">
     <mxGraphModel dx="1044" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -108,6 +108,26 @@
         </mxCell>
         <mxCell id="JTD1CBSB7yvX7XkZpm-Y-10" value="设备接收数据包流程（2）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1250" y="360" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JTD1CBSB7yvX7XkZpm-Y-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="700" as="sourcePoint" />
+            <mxPoint x="1500" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JTD1CBSB7yvX7XkZpm-Y-12" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;nlksock_handler&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="740" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JTD1CBSB7yvX7XkZpm-Y-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JTD1CBSB7yvX7XkZpm-Y-9" target="JTD1CBSB7yvX7XkZpm-Y-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="690" as="sourcePoint" />
+            <mxPoint x="1319" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JTD1CBSB7yvX7XkZpm-Y-14" value="netlink" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JTD1CBSB7yvX7XkZpm-Y-13">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" y="3" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
