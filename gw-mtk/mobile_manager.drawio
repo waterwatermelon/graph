@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T03:08:55.139Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="18Vz26B2TfRiN6c7P-Xd" version="21.7.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-11T03:22:38.419Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="acxRhF-CnGoS9yRYeT39" version="21.7.2" type="github" pages="3">
   <diagram name="sequence" id="wFGCldTrQh_1a03lcc_g">
     <mxGraphModel dx="1044" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
           <mxGeometry x="680" y="515" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pDXarYqikIfS1b3GncJh-14" value="trans_sender()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="645" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pDXarYqikIfS1b3GncJh-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="pDXarYqikIfS1b3GncJh-27" target="pDXarYqikIfS1b3GncJh-30">
           <mxGeometry relative="1" as="geometry" />
@@ -66,14 +66,20 @@
         <mxCell id="pDXarYqikIfS1b3GncJh-30" value="plugin_cb()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDXarYqikIfS1b3GncJh-31" value="&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;plugin_cb_handle()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="900" y="615" width="120" height="60" as="geometry" />
+        <mxCell id="pDXarYqikIfS1b3GncJh-31" value="&lt;div style=&quot;font-size: 14px; line-height: 19px;&quot;&gt;plugin_cb_handle()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="640" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pDXarYqikIfS1b3GncJh-33" value="设备发送数据包流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="320" width="110" height="30" as="geometry" />
+          <mxGeometry x="680" y="360" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pDXarYqikIfS1b3GncJh-34" value="设备接收数据包流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="900" y="320" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDXarYqikIfS1b3GncJh-35" value="1 以进程启动，发送Bootinitial为例。调用plugin_start()，获取配置数据中的平台信息。初始化传输层配置(transmit)&lt;br&gt;2 配置初始化成功后，创建json数据包。通过trans_request()在传输层队列中添加一个数据包。同时修改计时器到期时间为0（使计时器立即生效）&lt;br&gt;3 借助事件循环机制(event_loop)，来调用trans_sender()发送数据包。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="710" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pDXarYqikIfS1b3GncJh-39" value="1 传输层通过epoll事件响应来到trans_receiver()回调函数，trans_receiver()再数据包回填到plugin_cb()&lt;br&gt;2&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="720" width="195" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
