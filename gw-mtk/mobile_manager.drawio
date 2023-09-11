@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T08:25:49.992Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="et5aNvZ6ywCO0PGm_I-B" version="21.7.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-11T08:34:21.218Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="zTVGRxFfd-wFWu0E3w8a" version="21.7.2" type="github" pages="3">
   <diagram name="sequence" id="wFGCldTrQh_1a03lcc_g">
     <mxGraphModel dx="1044" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -183,7 +183,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AeWeKP3w_jKZX582oACy" name="ipc">
-    <mxGraphModel dx="-166" dy="397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="217" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -218,8 +218,8 @@
         <mxCell id="lD6cUZLl2j8s86pbKYld-8" value="send reply_jsonpkt&lt;br&gt;(install_reply/run_reply)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1040.5" y="256" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lD6cUZLl2j8s86pbKYld-9" value="send plugin_cmd&lt;br&gt;(install/run/stop)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1060.5" y="156" width="110" height="40" as="geometry" />
+        <mxCell id="lD6cUZLl2j8s86pbKYld-9" value="send cmd_jsonpkt&lt;br&gt;(install/run/stop)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1055.5" y="156" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lD6cUZLl2j8s86pbKYld-10" value="IPC" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="945" y="90" width="80" height="26" as="geometry" />
