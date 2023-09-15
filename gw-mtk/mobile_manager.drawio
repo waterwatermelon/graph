@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T01:00:01.504Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="dosP51ysp2ysohyDKUt9" version="21.7.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-15T01:18:29.945Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="UXS8mek8A3HrUSGbOp6q" version="21.7.4" type="github" pages="4">
   <diagram id="cQaiF26KoMbwk5dsJcf0" name="frame">
     <mxGraphModel dx="217" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -231,7 +231,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AeWeKP3w_jKZX582oACy" name="ipc">
-    <mxGraphModel dx="-409" dy="249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-107" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -280,20 +280,27 @@
             <mxPoint x="1165" y="506" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9XOzRpzrJDQTlLdTnZ5V-3" value="Other App" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="2nVq6V7qOwQq8l7xlBMu-1" value="write" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9XOzRpzrJDQTlLdTnZ5V-2">
+          <mxGeometry x="0.252" y="-8" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9XOzRpzrJDQTlLdTnZ5V-3" value="Other App(cfg_ng、svc_wan)" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1227" y="381" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9XOzRpzrJDQTlLdTnZ5V-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" parent="1" source="9XOzRpzrJDQTlLdTnZ5V-7" target="9XOzRpzrJDQTlLdTnZ5V-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9XOzRpzrJDQTlLdTnZ5V-7" value="Fifo&lt;br&gt;/tmp/fifo_wanchage" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1041.5" y="470" width="142" height="34" as="geometry" />
+        <mxCell id="2nVq6V7qOwQq8l7xlBMu-2" value="read" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9XOzRpzrJDQTlLdTnZ5V-6">
+          <mxGeometry x="-0.2408" y="-13" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9XOzRpzrJDQTlLdTnZ5V-7" value="Fifo&lt;br&gt;/tmp/fifo_wanchage" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;points=[[0.02,0.5,0,0,0],[0.08,0,0,0,0],[0.08,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.91,0,0,0,0],[0.91,1,0,0,0],[0.98,0.5,0,0,0]];" parent="1" vertex="1">
+          <mxGeometry x="1048.25" y="470" width="131.75" height="34" as="geometry" />
         </mxCell>
         <mxCell id="9XOzRpzrJDQTlLdTnZ5V-10" value="IPC" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="350" width="80" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="9XOzRpzrJDQTlLdTnZ5V-13" value="写入数据：&lt;br&gt;1 bms平台地址或者端口被修改式，写入数据：-1&lt;br&gt;2 cfg模块收到EVT_WAN_IPV4_CONGET消息时，写入数据：被修改的WAN连接索引。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1250" y="447" width="300" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
