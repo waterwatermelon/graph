@@ -1,9 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2023-11-21T01:25:02.898Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="21.8.0" etag="OBON0M6pg-rgFfY8JYB9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-21T01:35:55.034Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="-PBv77FMW37mfj9FWcWd" version="21.8.0" type="github" pages="2">
   <diagram name="Page-1" id="Y2VnL1YDTqgYniCYTL3A">
-    <mxGraphModel>
+    <mxGraphModel dx="1044" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-RCWaKc5MpI9c8FhtK4N" name="netfilter">
+    <mxGraphModel dx="1044" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="140" y="445" width="840" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="140" y="280" width="840" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="140" y="120" width="840" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="150" y="90" width="250" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 2;" vertex="1" parent="aPCApHCG1xcHMV3_VAXo-4">
+          <mxGeometry width="250" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-6" value="input part" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aPCApHCG1xcHMV3_VAXo-4">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-7" value="link layer" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="aPCApHCG1xcHMV3_VAXo-4">
+          <mxGeometry x="10" y="360" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-8" value="internet layer" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="aPCApHCG1xcHMV3_VAXo-4">
+          <mxGeometry x="10" y="200" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-9" value="application layer" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="aPCApHCG1xcHMV3_VAXo-4">
+          <mxGeometry x="10" y="40" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-10" value="table:hook" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-11" value="&lt;font color=&quot;#1a1a1a&quot;&gt;broute:brouting&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="150" y="500" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-12" value="nat:prerouting" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="500" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-13" value="interface:rx" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="660" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-14" value="interface:tx" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="510" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="420" y="90" width="250" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 2;" vertex="1" parent="aPCApHCG1xcHMV3_VAXo-15">
+          <mxGeometry width="250" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-17" value="forward part" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aPCApHCG1xcHMV3_VAXo-15">
+          <mxGeometry width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-18" value="filter:forward" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="aPCApHCG1xcHMV3_VAXo-15">
+          <mxGeometry x="40" y="410" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="690" y="90" width="250" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 2;" vertex="1" parent="aPCApHCG1xcHMV3_VAXo-19">
+          <mxGeometry width="250" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-21" value="output part" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aPCApHCG1xcHMV3_VAXo-19">
+          <mxGeometry width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-22" value="nat:postrouting" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="aPCApHCG1xcHMV3_VAXo-19">
+          <mxGeometry x="30" y="410" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="aPCApHCG1xcHMV3_VAXo-22" target="aPCApHCG1xcHMV3_VAXo-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="" id="aPCApHCG1xcHMV3_VAXo-24">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#1A1A1A;" edge="1" parent="1" source="aPCApHCG1xcHMV3_VAXo-18" target="aPCApHCG1xcHMV3_VAXo-22">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aPCApHCG1xcHMV3_VAXo-12" target="aPCApHCG1xcHMV3_VAXo-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aPCApHCG1xcHMV3_VAXo-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="aPCApHCG1xcHMV3_VAXo-11" target="aPCApHCG1xcHMV3_VAXo-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
