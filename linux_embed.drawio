@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-11-21T01:39:48.049Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="TZKP2_367_kb6a91IMIx" version="21.8.0" type="github" pages="2">
-  <diagram name="Page-1" id="Y2VnL1YDTqgYniCYTL3A">
+<mxfile host="app.diagrams.net" modified="2023-11-21T01:45:04.769Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="qyf7vseS5YeHcHO1_9Ox" version="21.8.0" type="github" pages="2">
+  <diagram name="mii_bus" id="Y2VnL1YDTqgYniCYTL3A">
     <mxGraphModel dx="1044" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_VdpfswEj5u_2citlIrF-6" value="NIC" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="650" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_VdpfswEj5u_2citlIrF-8" value="PHY&amp;nbsp; Layer" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="540" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_VdpfswEj5u_2citlIrF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;startArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="450" as="sourcePoint" />
+            <mxPoint x="95" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_VdpfswEj5u_2citlIrF-9" value="MAC Layer" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_VdpfswEj5u_2citlIrF-11" value="MDIO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_VdpfswEj5u_2citlIrF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;startArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="450" as="sourcePoint" />
+            <mxPoint x="245" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
