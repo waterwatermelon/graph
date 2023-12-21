@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T07:25:44.182Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="EJ17sVWoQ2SFjOStEmTg" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T07:26:21.950Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="oTeMX2gw3weii8Sy6Gfx" version="22.1.11" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="flow-chart">
     <mxGraphModel dx="1044" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,6 +68,12 @@
         </mxCell>
         <mxCell id="Vv7kV3NwlyLxIUMUTahm-23" value="主流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="190" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vv7kV3NwlyLxIUMUTahm-24" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vv7kV3NwlyLxIUMUTahm-25" value="启动网口跑流" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="180" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
