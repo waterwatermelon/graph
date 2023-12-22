@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T01:54:56.023Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="uui87EV-N2KI4EQ-nmT1" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-22T02:10:32.684Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="PbJFp2HkdzP3WoCdoGuU" version="22.1.11" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="flow-chart">
     <mxGraphModel dx="1044" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,6 +129,9 @@
         </mxCell>
         <mxCell id="15JTRB6i2O9myzKCoJsX-0" value="启动结果检测任务" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="15JTRB6i2O9myzKCoJsX-9" value="单向网口跑流流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="50" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
