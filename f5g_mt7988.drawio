@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T08:09:32.466Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.6.4" etag="AXHJih-9HDah7Ys_gIbd" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T08:14:18.189Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Kd6uyFNIwvtj74jX9L58" version="24.6.4" type="github">
   <diagram name="第 1 页" id="1YxiTmqycJQiXIEEKTzq">
-    <mxGraphModel>
+    <mxGraphModel dx="1044" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lKy5fmWPK9hlf1LeCsQw-2" value="" style="shape=mxgraph.cisco.computers_and_peripherals.terminal;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="288.5" y="390" width="61" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="lKy5fmWPK9hlf1LeCsQw-3" value="" style="shape=mxgraph.cisco.routers.ip_telephony_router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="230" width="78" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="lKy5fmWPK9hlf1LeCsQw-4" value="LAN8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="312" y="294" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lKy5fmWPK9hlf1LeCsQw-5" value="SL8500-GP04" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="274" y="190" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lKy5fmWPK9hlf1LeCsQw-6" value="PC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="274" y="440" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lKy5fmWPK9hlf1LeCsQw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lKy5fmWPK9hlf1LeCsQw-3" target="lKy5fmWPK9hlf1LeCsQw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
