@@ -152,8 +152,8 @@
         </mxCell>
         <mxCell id="Ep1STftQRM0y1Ukb86I6-1" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#EEEE00;strokeWidth=2;shadow=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="178" y="180" as="sourcePoint" />
-            <mxPoint x="228" y="130" as="targetPoint" />
+            <mxPoint x="239.5" y="180" as="sourcePoint" />
+            <mxPoint x="289.5" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ep1STftQRM0y1Ukb86I6-2" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#eeee00;strokeWidth=6;shadow=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="by5dA0bPQGcLcG-1_i2Y-1" target="by5dA0bPQGcLcG-1_i2Y-5">
