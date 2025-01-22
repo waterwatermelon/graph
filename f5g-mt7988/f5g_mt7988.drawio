@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.13" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6" pages="3">
   <diagram name="第 1 页" id="1YxiTmqycJQiXIEEKTzq">
     <mxGraphModel dx="1044" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -236,6 +236,101 @@
         </mxCell>
         <mxCell id="Ep1STftQRM0y1Ukb86I6-20" value="光纤" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="164" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cFqsDGn_sC-Uk8bXX-Pq" name="portal_auth">
+    <mxGraphModel dx="1044" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C4Nu0ADXO4HTkM-mq0jx-2" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="170" y="140" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="C4Nu0ADXO4HTkM-mq0jx-3" value="Auth_Server&lt;div&gt;(wifidog_auth)&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="580" y="140" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="C4Nu0ADXO4HTkM-mq0jx-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="C4Nu0ADXO4HTkM-mq0jx-3">
+          <mxGeometry x="45" y="200" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C4Nu0ADXO4HTkM-mq0jx-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="C4Nu0ADXO4HTkM-mq0jx-3">
+          <mxGeometry x="45" y="310" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="C4Nu0ADXO4HTkM-mq0jx-32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="C4Nu0ADXO4HTkM-mq0jx-3">
+          <mxGeometry x="45" y="460" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="C4Nu0ADXO4HTkM-mq0jx-4" value="Gateway&lt;div&gt;(wifidog)&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="350" y="140" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="C4Nu0ADXO4HTkM-mq0jx-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="C4Nu0ADXO4HTkM-mq0jx-4">
+          <mxGeometry x="45" y="80" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C4Nu0ADXO4HTkM-mq0jx-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="C4Nu0ADXO4HTkM-mq0jx-4">
+          <mxGeometry x="45" y="395" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="C4Nu0ADXO4HTkM-mq0jx-5" value="(1) request some domain" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.6;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="C4Nu0ADXO4HTkM-mq0jx-2" target="C4Nu0ADXO4HTkM-mq0jx-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="310" as="sourcePoint" />
+            <mxPoint x="390" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="230" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C4Nu0ADXO4HTkM-mq0jx-8" value="(2) return redirect indirective" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="C4Nu0ADXO4HTkM-mq0jx-6" target="C4Nu0ADXO4HTkM-mq0jx-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="310" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C4Nu0ADXO4HTkM-mq0jx-9" value="(3) redirect to auth server&amp;nbsp; with client information and gateway information" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="C4Nu0ADXO4HTkM-mq0jx-13">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="220" y="350" as="sourcePoint" />
+            <mxPoint x="650" y="350" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C4Nu0ADXO4HTkM-mq0jx-10" value="(4) return login page" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1" source="C4Nu0ADXO4HTkM-mq0jx-13" target="C4Nu0ADXO4HTkM-mq0jx-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="390" as="sourcePoint" />
+            <mxPoint x="220" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C4Nu0ADXO4HTkM-mq0jx-16" value="(5) login&amp;nbsp; request" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="C4Nu0ADXO4HTkM-mq0jx-15" parent="1" source="C4Nu0ADXO4HTkM-mq0jx-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="455" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C4Nu0ADXO4HTkM-mq0jx-17" value="(6) login success" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="C4Nu0ADXO4HTkM-mq0jx-15" parent="1" target="C4Nu0ADXO4HTkM-mq0jx-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C4Nu0ADXO4HTkM-mq0jx-30" value="(9) get portal page" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" target="C4Nu0ADXO4HTkM-mq0jx-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="605" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C4Nu0ADXO4HTkM-mq0jx-31" value="(10) write portal page" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="C4Nu0ADXO4HTkM-mq0jx-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C4Nu0ADXO4HTkM-mq0jx-19" value="(7) get portal page" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" target="C4Nu0ADXO4HTkM-mq0jx-18" source="C4Nu0ADXO4HTkM-mq0jx-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C4Nu0ADXO4HTkM-mq0jx-20" value="(8) return redirect portal page" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="C4Nu0ADXO4HTkM-mq0jx-18" target="C4Nu0ADXO4HTkM-mq0jx-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="580" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
