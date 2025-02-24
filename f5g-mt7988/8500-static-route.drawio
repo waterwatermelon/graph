@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="80d4a630-b321-0f5e-ff81-c5a36ef4752d">
-    <mxGraphModel dx="554" dy="350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="808" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,11 +31,29 @@
         <mxCell id="_1Y2n7WaQmejg51DR3ch-11" value="10.10.10.0/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="105" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="_1Y2n7WaQmejg51DR3ch-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="_1Y2n7WaQmejg51DR3ch-12" target="_1Y2n7WaQmejg51DR3ch-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_1Y2n7WaQmejg51DR3ch-12" value="LAN8" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="325" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_1Y2n7WaQmejg51DR3ch-13" value="192.168.10.1/23" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_1Y2n7WaQmejg51DR3ch-14" value="下挂测试设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="390" width="155" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_1Y2n7WaQmejg51DR3ch-15" value="WAN1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_1Y2n7WaQmejg51DR3ch-17" value="192.168.10.2/23" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="365" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_1Y2n7WaQmejg51DR3ch-18" value="LAN1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="440" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_1Y2n7WaQmejg51DR3ch-19" value="192.168.188.253/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="435" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
