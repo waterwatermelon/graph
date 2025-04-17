@@ -200,6 +200,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="-hA-w6Yoop_2Hy_WFXz5-7" value="主网关" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="910" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-hA-w6Yoop_2Hy_WFXz5-8" value="从网关" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="192.5" y="920" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
